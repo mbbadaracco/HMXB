@@ -7,6 +7,26 @@ Work carried out with Claude Code 2.1.278 (Opus 5, effort high).
 Everything else in this repository is behind them, and is meant to be readable by an agent that
 has never spoken to the author.
 
+> [!WARNING]
+> **Change the paths before running anything.** The scripts and notebooks were run on the
+> author's machine and contain absolute paths to it. Two prefixes appear, in `work/` and
+> `Observations/`:
+>
+> | Path in the files | What it stands for |
+> |---|---|
+> | `/home/marina/Doctorado/2026/HMXB_project` | the root of this repository |
+> | `/home/marina/Software/SAS/CCF` | the SAS calibration files (`SAS_CCFPATH`) |
+>
+> From the root of your copy, this replaces both (set your own CCF location first):
+>
+> ```
+> CCF=/path/to/your/SAS/CCF
+> grep -rlE '/home/marina' work Observations | xargs sed -i \
+>   -e "s|/home/marina/Doctorado/2026/HMXB_project|$PWD|g" \
+>   -e "s|/home/marina/Software/SAS/CCF|$CCF|g"
+> grep -rn '/home/marina' work Observations   # should print nothing
+> ```
+
 The goal is the local (circumstellar) column density of Galactic high-mass X-ray binaries as a
 function of **orbital phase**, obtained by fitting our own spectra and subtracting the
 interstellar column from the 3D reddening cube of Doroshenko et al. (2024) through a Monte Carlo.
