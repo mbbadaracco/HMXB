@@ -1,0 +1,242 @@
+J/A+A/684/A124         Galactic LMXBs catalog                    (Fortin+, 2024)
+================================================================================
+A catalogue of low-mass X-ray binaries in the Galaxy:
+from the INTEGRAL to the Gaia era.
+    Fortin F., Kalsi A., Garcia F., Simaz-Bunzel A., Chaty S.
+    <Astron. Astrophys. 684, A124 (2024)>
+    =2024A&A...684A.124F        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Milky Way ; Binaries, cataclysmic ; Binaries, X-ray ;
+              Stars, masses ; Binaries, orbits ; Radial velocities ;
+              Stars, distances
+Keywords: catalogs - binaries: general - stars: low mass
+
+Abstract:
+    Low-mass X-ray binaries (LMXBs) are high-energy sources that require
+    multi-wavelength follow-up campaigns to be fully characterised. New
+    transients associated with LMXBs are regularly discovered, and
+    previously known systems are often revisited by astronomers to
+    constrain their intrinsic parameters. All of this information compiled
+    into a catalogue may build a useful tool for subsequent studies on
+    LMXBs and their population.
+
+    We aim to provide an update on past LMXB catalogues dating back 16
+    years and propose to the community a database on Galactic LMXBs with
+    the most complete, manually curated set of parameters and their
+    original references. On top of a fixed version accessible through
+    Vizier, we propose hosting the catalogue independently on our GitHub
+    collaboration, side-by-side with our previous catalogue on high-mass
+    X-ray binaries. The database will be regularly updated based on new
+    publications and community inputs.
+
+    We built a working base by cross-matching previous LMXB catalogues and
+    supplementing them with lists of hard X-ray sources detected over the
+    past 20 years. We compiled information from Simbad on LMXBs as a
+    starting point for a thorough, manual search in the literature to
+    retrieve important parameters that characterize LMXBs. We retrieved
+    newly detected LMXBs and candidates directly from literature searches.
+    Counterparts to these LMXBs are compiled from hard X-ray to infrared
+    and radio domains. Every piece of information presented on the LMXBs
+    is curated and backed by accurate references.
+
+    We present a catalogue of 339 Galactic LMXBs listing their
+    coordinates, companion star spectral type, systemic radial velocity,
+    component masses and compact object nature, the presence of type I
+    X-ray bursts, as well as orbital data. Coordinates and identifiers of
+    counterparts at various wavelengths are given, including 140 LMXBs
+    detected in Gaia DR3.
+
+Description:
+    This table is the full catalogue of LMXBs presented in the paper,
+    aggregating both tables A1 and A2. The database can also be reached
+    via the LMXBWebcat website
+    (https://binary-revolution.github.io/LMXBwebcat/index.html).
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+lmxbcat.dat     1691      339   LMXB catalogue
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: lmxbcat.dat
+--------------------------------------------------------------------------------
+   Bytes   Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+    1-  29  A29   ---     MainID    Simbad main identifier (Main_ID)
+   31-  49 F19.15 deg     RAdeg     ? Right ascension (J2000) (RAdeg)
+   51-  72 F22.18 deg     DEdeg     ? Declination (J2000) (DEdeg)
+   74-  95 E22.17 deg     PosErr    ? Positional uncertainty (PosErr)
+   97- 115  A19   ---   r_PosErr    ? Position reference (Pos_ref)
+  117- 140  A24   ---     PopularID ? Most popular identifier according to ADS
+                                     (Popular_ID)
+  142- 150  A9    ---     Status    Confirmed or candidate (Status)
+  152- 162  A11   ---     SpType    ? Spectral type of the companion star
+                                     (Spectype)
+  164- 182  A19   ---   r_SpType    Reference for spectral type (Spectype_ref)
+       184  I1    ---   f_SpType    [0/2]? Quality flag for spectral type
+                                     (Spectype_flag)
+  186- 192  A7    ---     Compact   Nature of compact object (Compact)
+  194- 212  A19   ---   r_Compact   Reference for compact (Compact_ref)
+       214  I1    ---   f_Compact   [0/2]? Quality flag of compact
+                                     (Compact_flag)
+  216- 218  A3    ---     Bursts    Presence of Type-I bursts (Bursts)
+  220- 238  A19   ---   r_Bursts    Reference for bursts (Bursts_ref)
+  240- 246  F7.3  Msun    Mx        ? Mass of the compact object (Mx)
+  248- 254  F7.3  Msun  e_Mx        ? Error on Mx (Mx_err)
+  256- 274  A19   ---   r_Mx        Reference for Mx (Mx_ref)
+       276  I1    ---   f_Mx        [0/2]? Quality flag for Mx (Mx_flag)
+  278- 284  F7.4  Msun    Mo        ? Mass of the companion star (Mo)
+  286- 292  F7.3  Msun  e_Mo        ? Error on Mo (Mo_err)
+  294- 312  A19   ---   r_Mo        Reference for Mo (Mo_ref)
+       314  I1    ---   f_Mo        [0/2]? Quality flag for Mo (Mo_flag)
+  316- 332 F17.10 d       Period    ? Orbital period of the binary (Period)
+  334- 342  E9.3  d     e_Period    ? Error on orbital period (Period_err)
+  344- 362  A19   ---   r_Period    Reference for the orbital period
+                                     (Period_ref)
+       364  I1    ---   f_Period    [0/2]? Quality flag for the orbital period
+                                          (Period_flag)
+  366- 372  F7.2  km/s    K2        ? Radial velocity semi-amplitude (K2)
+  374- 380  F7.2  km/s  e_K2        ? Error on K2 (K2_err)
+  382- 400  A19   ---   r_K2        Reference for K2 (K2_ref)
+       402  I1    ---   f_K2        [0/2]? Quality flag for K2 (K2_flag)
+  404- 418  E15.9 1/yr    SpinPerD  ? Time derivative of the neutron-star spin
+                                     period (Spin_period_derivative)
+  420- 427  E8.2  1/yr  e_SpinPerD  ? Error on the spin period derivative
+                                     (Spin_period_derivative_err)
+  429- 447  A19   ---   r_SpinPerD  Reference for the spin period derivative
+                                     (Spin_period_derivative_ref)
+       449  I1    ---   f_SpinPerD  [0/1]? Quality flag for the spin period
+                                     derivative (Spin_period_derivative_flag)
+  451- 458  E8.2  ---     Ecc       ? Eccentricity of the binary system
+                                     (Eccentricity)
+  460- 465  E6.1  ---   e_Ecc       ? Error on the eccentricity
+                                     (Eccentricity_err)
+  467- 485  A19   ---   r_Ecc       Reference for the eccentricity
+                                     (Eccentricity_ref)
+       487  I1    ---   f_Ecc       [0/2]? Quality flag for the eccentricity
+                                     (Eccentricity_flag)
+  489- 507 F19.12 s       SpinPer   ? Spin period of the neutron star
+                                     (Spin_period)
+  509- 517  E9.3  s     e_SpinPer   ? Error on the spin period (Spin_period_err)
+  519- 537  A19   ---   r_SpinPer   Reference for the spin period
+                                     (Spin_period_ref)
+       539  I1    ---   f_SpinPer   [0/1]? Quality flag for the spin period
+                                     (Spin_period_flag)
+  541- 546  F6.1  km/s    RV        ? Radial velocity of the center of mass (RV)
+  548- 552  F5.1  km/s  e_RV        ? Error on RV ( RV_err)
+  554- 572  A19   ---   r_RV        Reference for RV (RV_ref)
+       574  I1    ---   f_RV        [0/2]? Quality flag for RV (RV_flag)
+  576- 582  F7.1  pc      GaiaDist  ? Distance inferred from Gaia parallax
+                                     (Gaia_Distance)
+  584- 590  F7.1  pc    e_GaiaDist  []? Lower bound of the error on Gaia
+                                     distance (Gaia_Distance_err_lo)
+  592- 598  F7.1  pc    E_GaiaDist  ? Upper bound of the error on Gaia distance
+                                     (Gaia_Distance_err_up)
+       600  I1    ---   f_GaiaDR3   [0/2]? Quality flag of the Gaia counterpart
+                                     of the binary (Gaia_flag)
+  602- 608  F7.3  kpc     OtherDist ? Distance retrieved from the literature
+                                     (Other_Distance)
+  610- 616  F7.3  kpc   e_OtherDist ? Error on the other distance
+                                     (Other_Distance_err)
+  618- 636  A19   ---   r_OtherDist Reference for the other distance
+                                     (Other_Distance_ref)
+       638  I1    ---   f_OtherDist [0/2]? Quality flag for the other distance
+                                     (Other_Distance_flag)
+  640- 647  A8    ---     GC        Host globular cluster (Globular_cluster)
+  649- 678  A30   ---     bestID    Identifier of the most accurately
+                                     positioned counterpart (best_ID)
+  680- 689  A10   ---     HEAO      Identifier in HEAO 1 (HEAO_ID)
+  691- 699  F9.4  deg     RAHdeg    ? HEAO 1 Right Ascension (J2000.0) (HEAO_RA)
+  701- 708  F8.4  deg     DEHdeg    ? HEAO 1 Delination (J2000.0) (HEAO_Dec)
+  710- 730 F21.18 deg     eHpos     ? HEAO 1 positional error (HEAO_err)
+  732- 735  I4    ---   r_HEAO      ? Reference for HEAO 1 (HEAO_ref)
+  737- 746  A10   ---     UHURU4    Identifier in UHURU 4 (UHURU4_ID)
+  748- 766 F19.14 deg     RAUdeg    ? UHURU 4 Right Ascension (J2000.0)
+                                     (UHURU4_RA)
+  768- 787 F20.16 deg     DEUdeg    ? UHURU 4 Declination (J2000.0) (UHURU4_Dec)
+  789- 810 F22.19 deg     eUpos     ? UHURU 4 positional error (UHURU4_err)
+  812- 815  I4    ---   r_UHURU4    ? Reference for UHURU 4 (UHURU4_ref)
+  817- 827  A11   ---     ARIEL3    Identifier in ARIEL 3 (ARIEL3_ID)
+  829- 837  F9.4  deg     RAAdeg    ? ARIEL 3 Right Ascension (J2000.0)
+                                     (ARIEL3_RA)
+  839- 846  F8.4  deg     DEAdeg    ? ARIEL 3 Declination (J2000.0) (ARIEL3_Dec)
+  848- 868 F21.18 deg     eApos     ? ARIEL 3 positional error (ARIEL3_err)
+  870- 873  I4    ---   r_ARIEL3    ? Reference for ARIEL 3 (ARIEL3_ref)
+  875- 897  A23   ---     IGR       Identifier in INTEGRAL (IGR_ID)
+  899- 906  F8.3  deg     RAIdeg    ? INTEGRAL Right Ascension (J2000.0)
+                                     (IGR_RA)
+  908- 914  F7.3  deg     DEIdeg    ? INTEGRAL Declination (J2000.0) (IGR_Dec)
+  916- 937 F22.19 deg     eIpos     ? INTEGRAL positional error (IGR_err)
+  939- 942  I4    ---   r_IGR       ? Reference for INTEGRAL (IGR_ref)
+  944- 950  A7    ---     2E        Identifier in EINSTEIN 2E (2E_ID)
+  952- 971 F20.15 deg     RA2Edeg   ? EINSTEIN 2E Right Ascension (J2000.0)
+                                     (2E_RA)
+  973- 991 F19.15 deg     DE2Edeg   ? EINSTEIN 2E Declination (J2000.0) (2E_Dec)
+  993-1013 F21.18 deg     e2Epos    ? EINSTEIN 2E positional error (2E_err)
+ 1015-1018  I4    ---   r_2E        ? Reference for EINSTEIN 2E (2E_ref)
+ 1020-1036  A17   ---     ROSAT     Identifier in ROSAT (ROSAT_ID)
+ 1038-1046  F9.4  deg     RARdeg    ? ROSAT Right Ascension (J2000.0) (ROSAT_RA)
+ 1048-1055  F8.4  deg     DERdeg    ? ROSAT Declination (J2000.0) (ROSAT_Dec)
+ 1057-1077 F21.18 deg     eRpos     ? ROSAT positional error (ROSAT_err)
+ 1079-1082  I4    ---   r_ROSAT     ? Reference for ROSAT (ROSAT_ref)
+ 1084-1105  A22   ---     ROSATF    Identifier in ROSAT Faint (ROSATF_ID)
+ 1107-1116  F10.5 deg     RARFdeg   ? ROSAT Faint Right Ascension (J2000.0)
+                                     (ROSATF_RA)
+ 1118-1126  F9.5  deg     DERFdeg   ? ROSAT Faint Declination (J2000.0)
+                                     (ROSATF_Dec)
+ 1128-1149 F22.19 deg     eRFpos    ? ROSAT Faint positional error (ROSATF_err)
+ 1151-1154  I4    ---   r_ROSATF    ? Reference for ROSAT Faint (ROSATF_ref)
+ 1156-1173  A18   ---     FERMI     Identifier in FERMI 4th (FERMI_ID)
+ 1175-1183  F9.4  deg     RAFdeg    ? FERMI 4th Right Ascension (J2000.0)
+                                     (FERMI_RA)
+ 1185-1192  F8.4  deg     DEFdeg    ? FERMI 4th Declination (J2000.0)
+                                     (FERMI_Dec)
+ 1194-1202  F9.6  deg     eFpos     ? FERMI 4th positional error (FERMI_err)
+ 1204-1207  I4    ---   r_FERMI     ? Reference for FERMI 4th (FERMI_ref)
+ 1209-1224  A16   ---     SAX       Identifier in BeppoSAX (SAX_ID)
+ 1226-1233  F8.3  deg     RASdeg    ? BeppoSAX Right Ascension (J2000.0)
+                                     (SAX_RA)
+ 1235-1241  F7.3  deg     DESdeg    ? BeppoSAX Declination (J2000.0) (SAX_Dec)
+ 1243-1263 F21.18 deg     eSPos     ? BeppoSAX positional error (SAX_err)
+ 1265-1268  I4    ---   r_SAX       ? Reference for BeppoSAX (SAX_ref)
+ 1270-1291  A22   ---     Swift     Identifier in Swift 2SXPS (Swift_ID)
+ 1293-1302  F10.5 deg     RASwdeg   ? Swift 2SXPS Right Ascension (J2000.0)
+                                     (Swift_RA)
+ 1304-1312  F9.5  deg     DESwdeg   ? Swift 2SXPS Declination (J2000.0)
+                                     (Swift_Dec)
+ 1314-1335 E22.16 deg     eSwpos    ? Swift 2SXPS positional error (Swift_err)
+ 1337-1355  A19   ---   r_Swift     Reference for Swift 2SXPS (Swift_ref)
+ 1357-1377  A21   ---     XMM       Identifier in 4XMM-DR11 (XMM_ID)
+ 1379-1389  F11.6 deg     RAXdeg    ? 4XMM-DR11 Right Ascension (J2000.0)
+                                     (XMM_RA)
+ 1391-1400  F10.6 deg     DEXdeg    ? 4XMM-DR11 Declination (J2000.0) (XMM_Dec)
+ 1402-1424 E23.17 deg     eXpos     ? 4XMM-DR11 positional error (XMM_err)
+ 1426-1429  I4    ---   r_XMM       ? Reference for 4XMM-DR11 (XMM_ref)
+ 1431-1453  A23   ---     Chandra   ? Identifier in Chandra CSC 2 (Chandra_ID)
+ 1455-1474 F20.15 deg     RACdeg    ? Chandra CSC 2 Right Ascension (J2000.0)
+                                     (Chandra_RA)
+ 1476-1495 F20.16 deg     DECdeg    ? Chandra CSC 2 Declination (J2000.0)
+                                     (Chandra_Dec)
+ 1497-1518 E22.16 deg     eCpos     ? Chandra CSC 2 positional error
+                                     (Chandra_err)
+ 1520-1523  I4    ---   r_Chandra   ? Reference for Chandra CSC 2 (Chandra_ref)
+ 1525-1547  A23   ---     2MASS     Identifier in 2MASS (2MASS_ID)
+ 1549-1559  F11.6 deg     RA2deg    ? 2MASS Right Ascension (J2000.0) (2MASS_RA)
+ 1561-1570  F10.6 deg     DE2deg    ? 2MASS Declination (J2000.0) (2MASS_Dec)
+ 1572-1594 E23.17 deg     e2pos     ? 2MASS positional error (2MASS_err)
+ 1596-1599  I4    ---   r_2MASS     ? Reference for 2MASS (2MASS_ref)
+ 1601-1619  I19   ---     GaiaDR3   ?=0 Identifier in Gaia DR3 (Gaia_ID)
+ 1621-1640 F20.15 deg     RAGdeg    ? Gaia DR3 Right Ascension (J2000.0)
+                                     (Gaia_RA)
+ 1642-1662 F21.17 deg     DEGdeg    ? Gaia DR3 Declination (J2000.0) (Gaia_Dec)
+ 1664-1686 E23.17 deg     eGpos     ? Gaia DR3 positional error (Gaia_err)
+ 1688-1691  I4    ---   r_GaiaDR3   ? Reference for Gaia DR3 (Gaia_ref)
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Francis Frotin, francis.fortin(at)irap.omp.eu
+
+================================================================================
+(End)                                        Patricia Vannier [CDS]  13-Feb-2024

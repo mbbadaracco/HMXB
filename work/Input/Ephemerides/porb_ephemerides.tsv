@@ -1,0 +1,98 @@
+# Orbital phase zero points and longitudes of periastron, read by hand from the
+# literature. One row per system. Neither quantity is in F23, so neither can be
+# derived: every value here is a reading of a published paper, and the quote
+# column carries the sentence or table row it was read from, so any entry can
+# be checked against its source without re-reading the paper.
+#
+# MJD_T0    the epoch, converted to MJD where the paper gives JD or HJD
+# e_MJD_T0  its uncertainty in days, the larger side when asymmetric
+# T0_kind   what the epoch is, in the paper's own terms. Values used:
+#             periastron            time of periastron passage
+#             Tpi/2                 mean longitude 90 deg; superior conjunction
+#                                   of the compact object when e = 0
+#             superior conjunction  stated as such
+#             inferior conjunction  stated as such
+#             mid-eclipse           centre of the X-ray eclipse
+#             ellipsoidal minimum   optical minimum, i.e. a conjunction
+#             outburst              an outburst maximum or first detection
+#             folding origin        an arbitrary origin used to fold a light
+#                                   curve, with no physical meaning
+# omega_deg longitude (argument) of periastron, degrees, as published
+# omega_frame whose orbit omega describes: `compact` when it comes from pulse
+#           timing of the X-ray source (the paper quotes a_X sin i in light
+#           seconds) or from the compact object's own lines, `donor` when it
+#           comes from radial velocities of the companion (the paper quotes K1
+#           or a1 sin i of the star). The two differ by exactly 180 degrees.
+ID	MJD_T0	e_MJD_T0	T0_kind	r_T0	omega_deg	e_omega_deg	r_omega	omega_frame	ecc_lit	e_ecc_lit	r_ecc_lit	status	quote
+1A 0535+262												no phase zero: the F23 period reference gives no epoch, and the periastron epoch quoted throughout the literature, MJD 53613.0, comes from a 2006 contribution by Finger et al. that has no eprint and could not be identified as a citable publication	
+1A 1118-615	54845.37	0.10	Tpi/2	2011A&A...527A...7S					0		2011A&A...527A...7S	the orbit is consistent with being circular, so the eccentricity is taken as zero and no longitude of periastron is defined	The data are consistent with a circular orbit, and the time of 90 degrees longitude was found to be Tpi/2 = MJD 54845.37(10), which is coincident with that of the peak X-ray flux; Porb = 24.0 +/- 0.4 days. The orbit being circular, omega is undefined
+1E 1145.1-6141	51008.1	0.4	Tpi/2	2002ApJ...581.1293R	-52	8	2002ApJ...581.1293R	compact					Table 2 Orbit Parameters: Porb 14.365 +/- 0.002 d, T0 51008.1 +/- 0.4, aX sin i 99.4 +/- 1.8 lt-s, e 0.20 +/- 0.03, omega -52 +/- 8 deg
+1FGL J1018.6-5856	57258.23	0.17	periastron	2022MNRAS.515.1078V	151.2	5.1	2022MNRAS.515.1078V	donor					Held at new period (adopted): Tp (time of periastron; MJD) 57258.23 +/- 0.17; longitude of periastron (degree) 151.2 +/- 5.1
+1H 1249-637												no phase zero: the F23 period reference reports the periodicity without an epoch	
+2E 1145.5-6155												no phase zero: the F23 period reference is a catalogue paper that tabulates the period without an epoch; the system is also known as 2S 1145-619, 3A 1145-619 and H 1145-619	
+2S 0114+650	44134.4	0.7	periastron	1985ApJ...299..839C	11.5	11.5	1985ApJ...299..839C	donor					Table 4 Orbit Solutions: P 11.588 +/- 0.003 d, T0 (JD 2,440,000+) 4134.9 +/- 0.7, V0 -57 +/- 11, K 17 +/- 1, e 0.16 +/- 0.07, omega 0.2 +/- 0.2 radians. Note: T0 is the time of periastron passage in the eccentric orbit. The omega is converted from 0.2 +/- 0.2 rad
+3A 0656-072												no phase zero: the F23 period reference is a review that tabulates the period without an epoch	
+3A 0726-260												no phase zero: the F23 period reference, and the 2025 study of the same source under its other name 4U 0728-25, both report the period without an epoch	
+4U 0115+634	53243.038	0.051	periastron	2010MNRAS.406.2663R	50.07	0.85	2010MNRAS.406.2663R	compact					Tomega (MJD) 53243.038 +/- 0.051; omega (deg) 50.07 +/- 0.85; e 0.339 +/- 0.005
+4U 1538-522	57612.53	0.05	Tpi/2	2019ApJ...873...62H	57	14	2019ApJ...873...62H	compact					Porb = 3.72831(2) d and Tpi/2 = 57612.53(5); omega (degrees) 57 +/- 14
+4U 1700-377	49149.412	0.006	mid-eclipse	2016MNRAS.461..816I	49	11	2015A&A...577A.130F	donor					The best fit to the mid-eclipse times for a constant orbital period gives T0 = 49149.412 +/- 0.006 MJD
+4U 1901+03	52682.2440	0.0010	Tpi/2	2005ApJ...635.1217G	268.812	0.003	2005ApJ...635.1217G	compact					Table 1: Tpi/2 (MJD) 52682.2440 +/- 0.0010; omega_peri (deg) 268.812 +/- 0.003; Tpi/2 the epoch at which the mean longitude l = pi/2
+4U 1907+097	50134.76	0.20	Tpi/2	1998ApJ...496..386I	330	20	1998ApJ...496..386I	compact					Table 2: Orbital epoch Tpi/2 MJD 50134.76 +0.16 -0.20; Longitude of periastron omega 330 degrees +20 -20
+4U 1909+07	52631.383	0.013	superior conjunction	2004ApJ...617.1284L									tau90 (MJD) 52631.383 +/- 0.013 ... superior conjunction for circular orbit
+4U 1954+319												no phase zero: the F23 period reference states that after 2.5 years of monitoring the radial velocities have not yet closed, so there is no orbital solution	
+4U 2206+543	55871.17	0.05	superior conjunction	2014AN....335.1060S								no longitude of periastron: the omega of the same table renders in the PDF as 'omega (deg) 61 0.2+/-1' and cannot be read unambiguously	Table 2: MJD0 (HJD-2,450,000) 5871.67 +/- 0.05, described as the time of the conjunction passage; the omega of the same table is garbled in the PDF and is not recorded here
+Cen X-3	50506.788423	0.000007	mid-eclipse	2015A&A...577A.130F								the eccentricity is bounded at < 0.0016, so no longitude of periastron is defined	Table 3 best-fit ephemeris: Cen X-3 Tecl 50506.788423(7) MJD, Porb 2.08704106(3) d; the eccentricity is < 0.0016 so omega is undefined; mid-eclipse time, equivalent to the time when the mean longitude l equals pi/2 for a circular orbit
+Cep X-4												no phase zero: the F23 period reference reports a 20.85 d periodicity in the long-term light curve without an epoch	
+Cir X-1	53473.3	0.4	periastron	2007MNRAS.374..999J	2	12	2007MNRAS.374..999J	donor					e 0.45 +/- 0.07, omega (deg) 2 +/- 12, T (+53,475.0 days; MJD) -1.7 +/- 0.4
+EXO 2030+375	50547.22	0.02	periastron	2002ApJ...570..287W	211.2	0.6	2002ApJ...570..287W	compact					Table 2, fit E+2R+51B: Porb 46.0214 +/- 0.0005, Tperi (JD) 2450547.72 +/- 0.02, e 0.419 +/- 0.002, omega 211.2 +/- 0.6
+GRO J1008-57	49189.8	0.5	periastron	2007MNRAS.378.1427C								no longitude of periastron: the orbital-parameter table of the period reference does not list it	Table 2 Orbital parameters for GRO J1008-57: Porbital (d) 247.8 +/- 0.4, e 0.68 +/- 0.02, tau_periastron (MJD) 49189.8 +/- 0.5; the table does not list omega
+GS 0834-430	48809.6	1.6	periastron	1997ApJ...479..388W	140	53	1997ApJ...479..388W	compact					Table 2 model fitting results: Porb 105.8 +/- 0.4 days, tau JD 2448810.1 +1.6 -1.4, aX sin i 128 lt-s, omega 140 +35 -53 deg
+GX 301-2	48802.79	0.12	periastron	2006A&A...457..595K	310.4	1.4	2006A&A...457..595K	compact					Time of periastron passage (MJD) 48802.79 +/- 0.12; omega (deg) 310.4 +/- 1.4; e 0.462 +/- 0.014
+H 1417-624	51485.059	0.057	periastron	2010MNRAS.406.2663R	298.85	0.68	2010MNRAS.406.2663R	compact					Table 4 Orbital parameters of 2S 1417-624, values from the 1999 outburst: ax sin i 207.05 +/- 0.97 lt-s, omega 298.85 +/- 0.68 deg, Tomega (MJD) 51485.059 +/- 0.057, e 0.4169 +/- 0.0033. The 1994-outburst column, reproduced from Finger et al. (1996), gives Tomega 49713.62 +/- 0.05 and e 0.446, which is the eccentricity F23 quotes
+HD 119682	58518.651	0.013	superior conjunction	2022MNRAS.510.2286N									the best-fit sinusoid has an amplitude of 64 +/- 10 km/s with T0 = 2458519.151 +/- 0.013 (conjunction with the primary star in front)
+HD 259440	54857.0		folding origin	2021ApJ...923..241A									They follow the same definition of phase phi = 0 as MJD = 54857.0, arbitrarily set to the date of the first Swift-XRT observations (Bongiorno et al. 2011)
+HD 96670	44259.049		spectroscopic phase zero	2021ApJ...913...48G								no longitude of periastron: the paper fits it but the value could not be read from the table	a spectroscopic phase 0 of T0 = HJD 2444259.549; the paper fits omega but the value could not be read from the table
+IGR J00370+6122	55084.018		periastron	2021PASJ...73.1389U									phase 0 is taken as the periastron time of MJD 55084.018
+IGR J01363+6610	55291	3	outburst	2010ATel.3079....1C									From the data obtained after MJD 54,750, a parameterization of the modulation from a sine wave fit yields: Tmax = MJD 55,291 +/- 3 + n x 159 +/- 2 where Tmax is the time of maximum flux
+IGR J11215-5952												no phase zero: the outbursts are folded on 164.6 d against the peak of the 2007 February 9 outburst, but no paper writes that date as a number	
+IGR J11305-6256	54658.949		folding origin	2013arXiv1305.3916L									The pulsed profile evaluated at P0 with Tepoch = 54658.949 MJD
+IGR J11435-6109	53069.5	1.9	outburst	2005ATel..377....1C									A sine wave fit to the ASM light curve gives parameters of: period = 52.46 +/- 0.06 days and epoch of maximum flux = MJD 53069.5 +/- 1.9
+IGR J16195-4945												no phase zero: the F23 period reference is a review that tabulates the period without an epoch; the system is also AX J161929-4945	
+IGR J16207-5129												no phase zero: the F23 period reference is an Astronomer's Telegram that reports the period and the shape of the folded light curve without an epoch	
+IGR J16318-4848	53477.577		folding origin	2017MNRAS.471..355I									The orbital period folded profile with folding epoch taken at MJD 53477.577
+IGR J16328-4726	52651.164		folding origin	2013ApJ...762...19F									a zero phase ephemeris, taken as the first INTEGRAL observation in the light curve, of MJD 52651.164
+IGR J16465-4507	53736.2		outburst	2010MNRAS.406L..75C								the eccentricity is not measured; the outbursts are reported to cluster near periastron	Figure 4. IBIS 18-60 keV light curve folded on the discovered 30.32 day period ... An ephemeris of MJD 53736.2 has been determined to place the peak of the emission at phase 0.0
+IGR J17354-3255	52698.205		folding origin	2011MNRAS.417..573S									Phase folded lightcurve of IGR J17354-3255, zero phase ephemeris MJD 52698.205
+IGR J17544-2619	54324.7	0.9	periastron	2013BCrAO.109...27N	142	28	2013BCrAO.109...27N	donor					Orbital parameters: P 12.172 +/- 0.007, T 54324.7 +/- 0.9, e 0.44 +/- 0.14, omega 142 +/- 28; T is the time interval since the periastron transit
+IGR J18027-2016	52168.26	0.04	mid-eclipse	2011A&A...532A.124M									specifies the epoch of mid-eclipse as T(MJD) = 52168.26(4) + 4.5696(9)N
+IGR J18214-1318	55684.64	0.05	mid-eclipse	2020MNRAS.498.2750C									The centroid of the minimum, evaluated by fitting the data around the dip with a Gaussian model, is at a phase 0.987 +/- 0.010 corresponding to Tmin = (55684.64 +/- 0.05) +/- nP0 MJD
+IGR J18450-0435	52708.43297		folding origin	2013MNRAS.434.2182G									the ephemeris MJD 52708.43297 as phase=0 and a period of 5.7195 d; the epoch is the start of the IBIS coverage
+IGR J18462-0223	53853.4		outburst	2013A&A...556A..27S									T0=53853.4 MJD is the time of the first ever detected outburst
+IGR J18483-0311	53507.1	0.1	outburst	2011ApJS..196....6L									determined the epoch of maximum flux to be MJD 53507.1 +/- 0.1
+IGR J19140+0951	51593.4	0.32	outburst	2004ATel..269....1C									A sine wave fit to the ASM light curve gives parameters of: period = 13.558 +/- 0.004 days and epoch of maximum flux = MJD 51593.4 +/- 0.32
+IGR J19294+1816	54680.3	0.6	outburst	2009ATel.2008....1C									Using the 8 maxima in the light curve which coincide with the times predicted by a 117 day period we derive: Tpeak (MJD) = 54,680.3 (+/- 0.6) + n x 117.2 (+/- 0.2)
+KS 1947+300	51985.31	0.07	Tpi/2	2004ApJ...613.1164G	333		2004ApJ...613.1164G	compact					Porb (d) All 40.415 +0.007 -0.010; ax sin i (lt-s) All 137.4; Tpi/2 (MJD) All 51985.31 +0.07 -0.06; e All 0.034 +0.007 -0.013; omega (deg) All 333, quoted without an uncertainty
+LS 5039	52825.485	0.053	periastron	2009ApJ...698..514A	236.0	5.8	2009ApJ...698..514A	donor					Table 2 Orbital Elements, LS 5039: P (d) 3.90608 +/- 0.00010, T0 (HJD-2,450,000) 2825.985 +/- 0.053, e 0.337 +/- 0.036, omega (deg) 236.0 +/- 5.8; T0 is the time of periastron
+LS I+61 303	51057.39	0.23	periastron	2009ApJ...698..514A	40.5	5.7	2009ApJ...698..514A	donor					Table 2 Orbital Elements, LS I +61 303: P (d) 26.4960, T0 (HJD-2,450,000) 1057.89 +/- 0.23, e 0.537 +/- 0.034, omega (deg) 40.5 +/- 5.7; T0 is the time of periastron. The traditional radio origin of Gregory & Taylor, JD 2443366.775, is a different convention and is not used here
+MWC 656	53242.8	1.8	optical maximum	2010ApJ...723L..93W									A discrete Fourier transform period search revealed one significant signal with a period of 60.37 +/- 0.04 d, an epoch of maximum brightness at HJD 2,453,243.3 +/- 1.8, and a semiamplitude of 0.020 +/- 0.002 mag
+PSR B1259-63	53071.2447290	0.0000007	periastron	2018MNRAS.479.4849M	138.665013	0.000011	2018MNRAS.479.4849M	compact					Epoch of periastron (MJD) T0 53071.2447290 +/- 0.0000007; Argument of periastron omega 138.665013 +/- 0.000011
+RX J0146.9+6121												no phase zero: the F23 period reference is a catalogue paper without an epoch, and the 330 d period is itself inferred rather than measured from an orbital solution	
+RX J0440.9+4431	53400		folding origin	2013A&A...553A.103F									Folded Swift/BAT light curve (15-150 keV) of RX J0440.9+4431, Orbit Phase [T0=53400 MJD]; the round value marks an arbitrary origin
+RX J0812.4-3114	51260.5	2	outburst	2000ApJ...530L..33C									The epoch of maximum flux is also estimated to be ~MJD 51260.5 +/- 2 ... an assumed period of 81.3 days and epoch of maximum flux = MJD 51260.5
+RX J2030.5+4751												no phase zero: there is no orbital solution for this system, the tabulated period belonging to another source	
+SAX J0635.2+0533	51419.8	0.9	periastron	2000ApJ...542L..41K	225	47	2000ApJ...542L..41K	compact					the orbital eccentricity is 0.29 +0.09 -0.06, the epoch of periastron passage is MJD 51419.8 +0.5 -0.9, and the longitude of periastron is 225 +47 -22 degrees; the PDF renders this passage in scrambled order and the reading is reconstructed
+SAX J1818.6-1703												no phase zero: Bird et al. (2009) discover the 30 d period but state no epoch, MJD 53671 in that paper being the date of a flare in its Table 1; the eccentricity is not measured either, Bozzo et al. (2024) quoting an estimate of 0.3-0.4	
+SAX J1819.3-2525	53154.17359		ellipsoidal minimum	2005MNRAS.363..882L									HJDmin = 2453154.67359 + 2.81728 x E, the shallower minimum of the ellipsoidal variability
+SAX J2103.5+4545	52469.336	0.057	Tpi/2	2007MNRAS.374.1108B	244.3	6.0	2007MNRAS.374.1108B	compact					Table 2: Tpi/2 Orbital Epoch (MJD) 52469.336 +/- 0.057, e 0.4055 +/- 0.0032, omega (deg) 244.3 +/- 6.0
+SAX J2239.3+6116	50786		outburst	2000A&A...361...85I									The epoch for peak flux is MJD 50786
+SGR 0755-2933												no phase zero: the 260 d period is tentative and the paper gives no epoch	
+SS 433	50023.26	0.2	superior conjunction	2010ApJ...709.1374K									Using these data and all previous photometric data of SS 433 we have, we update the orbital ephemeris. The main minimum is Min I = JD 2450023.76 +/- 0.2 + (13.08227 +/- 0.00008) x E. The main minimum is the eclipse of the compact object by the donor star
+Swift J0243.6+6124	58019.2	0.4	periastron	2018A&A...613A..19D	-76	4	2018A&A...613A..19D	compact					Table 1: Porb, d 28.3(2); e 0.092(7); omega, deg -76(4); TPA, MJD 58019.2(4)
+V 0332+53	53330.584	0.055	periastron	2010MNRAS.406.2663R	283.49	0.91	2010MNRAS.406.2663R	compact					Table 3 Orbital parameters of V0332+53: omega (deg) 283.49 +/- 0.91, Tomega (MJD) 53330.584 +/- 0.055, e 0.417 +/- 0.007
+Vela X-1	42611.349	0.013	mid-eclipse	2015A&A...577A.130F	152.59	0.92	2015A&A...577A.130F	compact					Table 3 best-fit ephemeris: Vela X-1 Tecl 42611.349(13), Tpi/2 42611.1693(43) MJD; Table 1 gives e 0.0898(12) and omega 152.59(92) deg
+X Per	51353	7	periastron	2001ApJ...546..455D	288	9	2001ApJ...546..455D	compact					e 0.111 +/- 0.018, omega_peri (deg) 288 +/- 9, Tperi (MJD) 51353 +/- 7
+XTE J0421+560	52198.5		inferior conjunction	2006ASPC..355..305B	270		2006ASPC..355..305B	compact	0.62		2006ASPC..355..305B		Table 1 Spectroscopic elements of CI Cam: T0 = JD 2452199.0, P = 19.407 days, e = 0.62, omega ~ 270 deg; T0 refers to the location of an inferior conjunction
+XTE J1739-302	52698.2		folding origin	2010MNRAS.409.1220D									The ephemeris of MJD 52698.2 is used, defining the initial zero phase at the first observation of XTE J1739-302 with INTEGRAL/IBIS
+XTE J1855-026	50289.1	0.15	outburst	1999ApJ...517..956C	226	15	2015A&A...577A.130F	compact	0.04	0.02	2015A&A...577A.130F		The epoch of maximum flux derived from the sine wave fit is MJD 50289.1 +/- 0.15
+XTE J1906+090												no phase zero: the F23 period reference finds two candidate periods, 173.1 and 81.4 d, and calls their origins unclear	
+XTE J1946+274	55514.8	1.1	periastron	2015ApJ...815...44M	-87.4	1.7	2015ApJ...815...44M	compact					DISK column: Porb [d] 172.7, tau [MJD] 55514.8 +0.8 -1.1, e 0.246 +/- 0.009, omega [deg] -87.4 +1.5 -1.7

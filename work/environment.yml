@@ -1,0 +1,22 @@
+# Per-project environment (Agreement.md: never install into base).
+#   conda env create -f environment.yml -p ./env
+#   ./env/bin/python -m ipykernel install --user --name hmxb
+name: hmxb
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - astropy
+  - astroquery
+  - pyvo
+  - pypdf
+  - healpy
+  - sympy
+  - jupyterlab
+  - nbconvert
+  - ipykernel
+  - requests
+  - tqdm

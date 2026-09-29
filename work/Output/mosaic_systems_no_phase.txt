@@ -1,0 +1,76 @@
+# Systems with observations and no orbital phase on any of them, most observations first.
+# Built by work/build_mosaic_list.py from the tables of Observations/Images/.
+# The systems that do have a phase are in mosaic_systems.txt.
+#
+# These cannot be ordered by phase, so they are drawn in time order, each tile
+# labelled with its MJD instead:
+#               ./ds9_phase_mosaic.sh <system> --by-mjd
+# The script falls back to that on its own for these systems, so the flag only
+# makes the intention explicit.
+#
+# n_obs     observations in total, and the number of tiles the mosaic will hold
+# Chandra   of those, Chandra; XMM, XMM-Newton
+# system    the directory under Observations/Images/, and the argument of the script
+# ID        the identifier of the working sample, which carries the spaces the directory cannot
+# Porb      orbital period in days, empty where none is published
+# why       where this system stops on the way to a phase, in the terms of X-09 and X-10
+#
+n_obs  Chandra  XMM  system                     ID                         Porb_d         why
+93     76       17   ATO_J278.3657-10.5901      ATO J278.3657-10.5901                     no orbital period
+62     50       12   SNR_021.5-00.9             SNR 021.5-00.9                            no orbital period
+20     0        20   IGR_J13020-6359            IGR J13020-6359                           no orbital period
+14     6        8    SS_433                     SS 433                     13.08          superior conjunction epoch, no omega published
+10     0        10   SAX_J0635.2+0533           SAX J0635.2+0533           11.2           phase lost to the period error
+7      1        6    HD_119682                  HD 119682                  90             superior conjunction epoch, no omega published
+7      1        6    IGR_J17354-3255            IGR J17354-3255            8.447          folding origin epoch, no fixed relation to the orbit
+7      6        1    SAX_J1819.3-2525           SAX J1819.3-2525           2.817          ellipsoidal minimum epoch, no fixed relation to the orbit
+6      4        2    HD_259440                  HD 259440                  317.3          folding origin epoch, no fixed relation to the orbit
+6      0        6    IGR_J18027-2016            IGR J18027-2016            4.5696         mid-eclipse epoch, no omega published
+6      2        4    IGR_J18450-0435            IGR J18450-0435            5.7195         folding origin epoch, no fixed relation to the orbit
+5      0        5    1H_1249-637                1H 1249-637                226            period, no epoch published
+5      4        1    2MASS_J22535512+6243368    2MASS J22535512+6243368                   no orbital period
+5      0        5    IGR_J11215-5952            IGR J11215-5952            164.6          period, no epoch published
+5      0        5    IGR_J16318-4848            IGR J16318-4848            80.09          folding origin epoch, no fixed relation to the orbit
+4      2        2    AX_J1700-419               AX J1700-419                              no orbital period
+4      1        3    AX_J1841.0-0536            AX J1841.0-0536                           no orbital period
+4      0        4    IGR_J16328-4726            IGR J16328-4726            10.068         folding origin epoch, no fixed relation to the orbit
+4      1        3    IGR_J18483-0311            IGR J18483-0311            18.545         outburst epoch, no fixed relation to the orbit
+3      1        2    MWC_656                    MWC 656                    60.37          optical maximum epoch, no fixed relation to the orbit
+2      1        1    1A_0535+262                1A 0535+262                110.3          period, no epoch published
+2      1        1    3A_0726-260                3A 0726-260                34.548         period, no epoch published
+2      0        2    4U_1909+07                 4U 1909+07                 4.4007         superior conjunction epoch, no omega published
+2      1        1    Cen_X-3                    Cen X-3                    2.033          mid-eclipse epoch, no omega published
+2      1        1    IGR_J06074+2205            IGR J06074+2205                           no orbital period
+2      0        2    IGR_J16465-4507            IGR J16465-4507            30.24          outburst epoch, no fixed relation to the orbit
+2      1        1    IGR_J18214-1318            IGR J18214-1318            5.4246         mid-eclipse epoch, no omega published
+2      0        2    IGR_J18462-0223            IGR J18462-0223            2.1378         outburst epoch, no fixed relation to the orbit
+2      1        1    IGR_J19140+0951            IGR J19140+0951            13.558         outburst epoch, no fixed relation to the orbit
+2      2        0    IGR_J19498+2534            IGR J19498+2534                           no orbital period
+2      2        0    SAX_J1818.6-1703           SAX J1818.6-1703           30             period, no epoch published
+1      1        0    1A_1118-615                1A 1118-615                24             Tpi/2 epoch, no omega published
+1      1        0    2E_1145.5-6155             2E 1145.5-6155             187.5          period, no epoch published
+1      1        0    3A_0656-072                3A 0656-072                101.2          period, no epoch published
+1      1        0    4U_1954+319                4U 1954+319                1296.6375      period, no epoch published
+1      0        1    4U_2206+543                4U 2206+543                9.558          superior conjunction epoch, no omega published
+1      1        0    Cep_X-4                    Cep X-4                    20.85          period, no epoch published
+1      0        1    EM*_AS_14                  EM* AS   14                               no orbital period
+1      1        0    GS_1843+009                GS 1843+009                               no orbital period
+1      1        0    HD_96670                   HD 96670                   5.28388        spectroscopic phase zero epoch, no fixed relation to the orbit
+1      0        1    IGR_J08262-3736            IGR J08262-3736                           no orbital period
+1      1        0    IGR_J10101-5654            IGR J10101-5654                           no orbital period
+1      1        0    IGR_J11305-6256            IGR J11305-6256            120.83         folding origin epoch, no fixed relation to the orbit
+1      1        0    IGR_J13186-6257            IGR J13186-6257                           no orbital period
+1      1        0    IGR_J14331-6112            IGR J14331-6112                           no orbital period
+1      1        0    IGR_J16195-4945            IGR J16195-4945            16             period, no epoch published
+1      1        0    IGR_J16207-5129            IGR J16207-5129            9.726          period, no epoch published
+1      1        0    IGR_J18256-1035            IGR J18256-1035                           no orbital period
+1      0        1    IGR_J21347+4737            IGR J21347+4737                           no orbital period
+1      0        1    RX_J0146.9+6121            RX J0146.9+6121            330            period, no epoch published
+1      0        1    RX_J0440.9+4431            RX J0440.9+4431            150            folding origin epoch, no fixed relation to the orbit
+1      1        0    RX_J0812.4-3114            RX J0812.4-3114            80.39          phase lost to the period error
+1      1        0    RX_J1744.7-2713            RX J1744.7-2713                           no orbital period
+1      0        1    RX_J2030.5+4751            RX J2030.5+4751            46.02          period, no epoch published
+1      1        0    SGR_0755-2933              SGR 0755-2933              260            period, no epoch published
+1      1        0    XTE_J1739-302              XTE J1739-302              51.47          folding origin epoch, no fixed relation to the orbit
+1      0        1    XTE_J1855-026              XTE J1855-026              6.067          outburst epoch, no fixed relation to the orbit
+1      1        0    XTE_J1906+090              XTE J1906+090              81.4           period, no epoch published

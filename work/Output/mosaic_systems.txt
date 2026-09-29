@@ -1,0 +1,46 @@
+# Systems that can be drawn as a phase mosaic, most observations first.
+# Built by work/build_mosaic_list.py from the tables of Observations/Images/.
+# The systems with no phase at all are in mosaic_systems_no_phase.txt.
+#
+# n_phase   observations that carry an orbital phase; these are the tiles of the mosaic
+# n_obs     observations in total, Chandra and XMM-Newton together
+# Chandra   of those, Chandra; XMM, XMM-Newton. A row without a phase is skipped by the script.
+# system    the directory under Observations/Images/, and the argument of ds9_phase_mosaic.sh:
+#               ./ds9_phase_mosaic.sh <system>
+# ID        the identifier of the working sample, which carries the spaces the directory cannot
+# Porb      orbital period in days
+# Tper_from how the epoch reached the periastron convention: "as published" means it was
+#               already one, anything else names the conversion of X-09
+#
+n_phase  n_obs  Chandra  XMM  system                     ID                         Porb_d         Tper_from
+41       41     21       20   PSR_B1259-63               PSR B1259-63               1236.724526    as published
+17       17     2        15   LS_I+61_303                LS I+61 303                26.496         as published
+9        9      4        5    LS_5039                    LS 5039                    3.90607        as published
+7        7      1        6    IGR_J17544-2619            IGR J17544-2619            12.172         as published
+6        6      3        3    1FGL_J1018.6-5856          1FGL J1018.6-5856          16.5507        as published
+5        5      0        5    4U_1700-377                4U 1700-377                3.41166        from mid-eclipse
+5        5      5        0    GS_0834-430                GS 0834-430                105.8          as published
+4        4      0        4    XTE_J0421+560              XTE J0421+560              19.41          from inferior conjunction
+3        3      0        3    4U_0115+634                4U 0115+634                24.3174        as published
+3        3      3        0    4U_1901+03                 4U 1901+03                 22.5827        from Tpi/2
+3        3      1        2    IGR_J00370+6122            IGR J00370+6122            15.6649        as published
+3        3      1        2    KS_1947+300                KS 1947+300                40.415         from Tpi/2
+3        3      1        2    X_Per                      X Per                      250.3          as published
+2        2      1        1    4U_1538-522                4U 1538-522                3.72831        from Tpi/2
+2        8      5        3    Cir_X-1                    Cir X-1                    16.68          as published
+2        2      1        1    GX_301-2                   GX 301-2                   41.498         as published
+2        2      1        1    IGR_J19294+1816            IGR J19294+1816            117.2          outburst maximum of a Be XB
+2        2      2        0    SAX_J2103.5+4545           SAX J2103.5+4545           12.66536       from Tpi/2
+2        2      1        1    V_0332+53                  V 0332+53                  36.5           as published
+2        2      0        2    Vela_X-1                   Vela X-1                   8.96302        from mid-eclipse
+1        1      0        1    1E_1145.1-6141             1E 1145.1-6141             14.365         from Tpi/2
+1        1      0        1    2S_0114+650                2S 0114+650                11.5983        as published
+1        1      0        1    4U_1907+097                4U 1907+097                8.3753         from Tpi/2
+1        1      0        1    EXO_2030+375               EXO 2030+375               46.0214        as published
+1        1      1        0    GRO_J1008-57               GRO J1008-57               247.8          as published
+1        1      1        0    H_1417-624                 H 1417-624                 42.12          as published
+1        1      0        1    IGR_J01363+6610            IGR J01363+6610            159            outburst maximum of a Be XB
+1        1      1        0    IGR_J11435-6109            IGR J11435-6109            52.46          outburst maximum of a Be XB
+1        1      1        0    SAX_J2239.3+6116           SAX J2239.3+6116           262            outburst maximum of a Be XB
+1        1      0        1    Swift_J0243.6+6124         Swift J0243.6+6124         28.3           as published
+1        1      1        0    XTE_J1946+274              XTE J1946+274              172.7          as published

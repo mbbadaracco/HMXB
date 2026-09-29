@@ -1,0 +1,29 @@
+# Environments and toolchains: rebuilt from work/environment.yml and work/setup_texlive.sh
+work/env/
+work/env_bxa/
+work/texlive/
+
+# Bulk data: rebuilt by the download and reprocessing scripts (see README.md)
+Observations/*/[0-9]*/
+Observations/Images/*/
+Observations/Images/logs/
+Observations/Images/scratch/
+5XMM-DR15/
+work/csc_products/
+work/epic_rmf/
+work/xmm_pps/
+work/stage1_xmm/
+
+# Published papers, not ours to redistribute
+Papers/
+work/f23_refs/
+
+# LaTeX and notebook build artefacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+.ipynb_checkpoints/
+__pycache__/
