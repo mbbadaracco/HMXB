@@ -60,7 +60,7 @@ different definitions of phase zero.
 
 `PROVENANCE.md` is the entry point for anyone checking the work. It is organised by result
 identifier (`S-…` sample, `X-…` cross-match and images, `C-…` what the catalogues report,
-`R-…` reduction and fits, `M-…` manuscript), and every entry carries a **Checked** and, where it
+`R-…` reduction and fits), and every entry carries a **Checked** and, where it
 applies, a **Not checked** paragraph.
 
 ## Environment
@@ -75,7 +75,7 @@ mission-specific: **CIAO 4.17** (`chandra_repro`, `dmcopy`, `wavdetect`, `mkpsfm
 (`emproc`, `epproc`, `evselect`, `edetect_chain`) and **HEASoft 6.36/XSPEC 12.15.1** with **BXA 5.1.1**
 and **UltraNest 4.5.2** in a second venv, `work/env_bxa`, created on HEASoft's python with
 `--system-site-packages`. `work/setup_texlive.sh` installs the LaTeX toolchain into
-`work/texlive` for the manuscript and the summary. The figure tool needs **SAOImage ds9 8.6**
+`work/texlive` for the summary. The figure tool needs **SAOImage ds9 8.6**
 and its XPA utilities.
 
 ## Reproducing it
