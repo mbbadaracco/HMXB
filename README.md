@@ -27,6 +27,19 @@ has never spoken to the author.
 > grep -rn '/home/marina' work Observations   # should print nothing
 > ```
 
+> [!IMPORTANT]
+> **Software versions the results were produced with.** Other versions may give different
+> reductions and fits.
+>
+> | Software | Version | Calibration |
+> |---|---|---|
+> | CIAO | 4.17.0 | CALDB 4.12.2 |
+> | SAS | 22.1.0-a8f2c2afa-20250304 | CCF set dated 2 February 2026 |
+> | HEASoft | 6.36, with XSPEC 12.15.1 | — |
+> | BXA / UltraNest | 5.1.1 / 4.5.2 (in `work/env_bxa`) | — |
+> | SAOImage ds9 | 8.6 | — |
+> | Python | 3.12 (`work/environment.yml`) | — |
+
 The goal is the local (circumstellar) column density of Galactic high-mass X-ray binaries as a
 function of **orbital phase**, obtained by fitting our own spectra and subtracting the
 interstellar column from the 3D reddening cube of Doroshenko et al. (2024) through a Monte Carlo.
@@ -58,8 +71,8 @@ work/env/bin/python -m ipykernel install --user --name hmxb
 ```
 
 Three external packages are used but not installed by that file, because they are large and
-mission-specific: **CIAO 4.17** (`chandra_repro`, `dmcopy`, `wavdetect`, `mkpsfmap`), **SAS 21**
-(`emproc`, `epproc`, `evselect`, `edetect_chain`) and **HEASoft/XSPEC 12.15** with **BXA 5.1.1**
+mission-specific: **CIAO 4.17** (`chandra_repro`, `dmcopy`, `wavdetect`, `mkpsfmap`), **SAS 22.1.0**
+(`emproc`, `epproc`, `evselect`, `edetect_chain`) and **HEASoft 6.36/XSPEC 12.15.1** with **BXA 5.1.1**
 and **UltraNest 4.5.2** in a second venv, `work/env_bxa`, created on HEASoft's python with
 `--system-site-packages`. `work/setup_texlive.sh` installs the LaTeX toolchain into
 `work/texlive` for the manuscript and the summary. The figure tool needs **SAOImage ds9 8.6**
