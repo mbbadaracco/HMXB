@@ -1,6 +1,6 @@
 # Provenance
 
-Where every statement in the manuscript comes from, and what has **not** been
+Where every result of this work comes from, and what has **not** been
 checked. It is organised by what the statement is about, not by when the work
 was done: an entry is the current account of one thing, rewritten when that
 thing changes rather than appended to.
@@ -90,33 +90,26 @@ each published identifier exists.
 - **Source.** `Papers/Doroshenko2024.pdf`, abstract, Sect. 2 and Sect. 4.
 - **How checked.** read.
 - **Not checked.** Nothing has been queried from the cube for this
-  draft. The numerical calibration constants are *not* quoted in the
-  manuscript yet, and will carry their own entry when they are.
+  draft. The numerical calibration constants are *not* used yet, and
+  will carry their own entry when they are.
 
 ---
 
-### T-03 — project and journal requirements
+### T-03 — project requirements
 
 `../final-project.html` requires reproducible code, data, environment and
 checks, with provenance, an HTML presentation and a PDF, ultimately in a
 GitHub repository. No commit or push is authorized by this task.
-The earlier manuscript used the supplied `aa.cls` v9.4, `aa.bst` and official
-example. The earlier request to the A&A author page returned HTTP 403;
-compliance with all prose author guidelines has not been established.
 
 ## 2. Inputs, software and bibliography
 
-### T-01 / T-02 — environments and manuscript build
+### T-01 / T-02 — environments
 
 The existing project environment is `env/`; the XMM fitter uses `env_bxa/`
 with HEASoft/PyXspec; the Chandra fitter uses CIAO's Python and Sherpa.
 No package is installed into a base environment: `env_bxa/` is a venv on
 HEASoft's python with `--system-site-packages`, holding XSPEC 12.15.1,
 UltraNest 4.5.2 and BXA 5.1.1. TeX Live is installed in `texlive/`.
-The earlier session recorded a successful `../manuscript_aanda/Makefile`
-`make check` (no undefined references/citations or LaTeX errors).
-That is a dated build check, not a claim that the manuscript reflects the
-fits. The manuscript has not been rebuilt or updated since.
 
 ### T-04 — reduction calibration
 
@@ -125,15 +118,6 @@ User-supplied versions: CIAO 4.17.0 / CALDB 4.12.2; SAS
 recorded 548 CCF files (2.8 GB). No CCF update was completed. That calibration
 record concerns our event reprocessing; Stage 1 uses the catalogue responses.
 Whether subsequent CCF changes affect this sample remains unchecked.
-
-### B-01 — bibliography audit recorded on 25 September 2026
-
-- **How checked.** Each of the 21 entries of
-  `manuscript_aanda/references.bib` carries a `pdf =` field, and every
-  one of those files exists in `Papers/`. The converse does not hold and
-  is not required: `Papers/` now holds 63 PDFs, most of them read but not
-  cited. Two entries (`haberl2016`, `prokhorenko2026`) are present but
-  not yet cited.
 
 ### B-02 — publication metadata resolved in the earlier session
 
@@ -933,7 +917,7 @@ The replacement comes from the two papers in `f23_refs/`:
 Neither paper is cited by F23: `2013MNRAS.434.2182G` appears nowhere in
 `tablea.dat`, so the published measurement existed and the catalogue took the
 preprint instead. Both papers are in `f23_refs/` as the published articles,
-`Goossens2013.pdf` and `Bozzo2024.pdf`, and both are in `references.bib`.
+`Goossens2013.pdf` and `Bozzo2024.pdf`.
 Because `r_Porb` now names the Goossens bibcode, `download_f23_refs.py` would
 otherwise fetch the arXiv version of a paper already on disk, so it carries a
 small `ALREADY` map from those two bibcodes to the filenames used here. Not checked: whether the withdrawn preprint's numbers appear
@@ -995,9 +979,8 @@ disagreement, not who is right.
   `nh_gal` as "Galactic neutral Hydrogen column density, N_H(Gal), in the
   direction of the source", with no distance entering.
 - **Note.** The underlying H I survey is named in `Evans2024.pdf`. It is
-  not cited in the manuscript because that paper is not in `Papers/`
-  (`Agreement2.md`: never cite a paper that is not in there); the
-  manuscript attributes it to `\citet{evans2024}` instead.
+  not cited here because that paper is not in `Papers/`
+  (`Agreement2.md`: never cite a paper that is not in there).
 
 ### C-03 — CSC: canonical model parameters
 
@@ -1122,8 +1105,7 @@ disagreement, not who is right.
 
 ### C-13 — how each catalogue builds a source-level value
 
-**How checked.** read, on 26 September, and written into Sects. 3.1-3.3 of
-the manuscript.
+**How checked.** read, on 26 September.
 
 - **CSC.** Bayesian Blocks over the contributing observations, the fitness
   of a block being the product of the per-observation flux MPDFs, per-band
@@ -1142,7 +1124,7 @@ the manuscript.
   pn and one MOS detection, the highest signal-to-noise of each.
   `../Papers/5XMMdraft.pdf` Sects. 4 and 6.
 
-**Consequence recorded in the manuscript.** Neither source-level value is
+**Consequence.** Neither source-level value is
 defined for a variable source, so this work stays at the detection level.
 The argument given is that the interstellar column at a fixed distance is
 time-invariant while the intrinsic one is not, so the epoch-to-epoch
@@ -1383,8 +1365,7 @@ precision on the energies that HRC does not have. Detection runs on that image
 instead of on `csc-b`. Three systems have Chandra data that is HRC and nothing
 else — `4U 1954+319`, `IGR J00370+6122` and `IGR J18483-0311` — and without
 this they would have had no Chandra image at all. This also means the HRC wide
-band, which Table of bands in the manuscript said was not used, *is* used, for
-those 36 observations and only for them.
+band *is* used, for those 36 observations and only for them.
 
 **What the failed first run left behind.** The 216 *Error in parameter file*
 messages in the logs were the same ENOSPC in another guise: CIAO also puts its
@@ -1911,18 +1892,3 @@ earlier XMM numbers were produced before both corrections and are not
 carried forward. No XMM success count is asserted until that run finishes
 and its per-source results are checked. Stage 2, extraction from our own
 reprocessed event files, has not been started for either mission.
-
-## 8. The manuscript
-
-### M-01 — manuscript synchronization
-
-The manuscript's reduction section and build describe the earlier drafting
-state and are now out of date in one specific way: the draft box on page 1
-states that the *Chandra* reprocessing and the flare, FLAG and PATTERN
-screening "have not been run yet", and both have since run — 188 Chandra
-reprocessing directories with 188 `evt2` files, and 561 `flag-pattern_*`
-files with no `clean_*` or `gti_*`, checked by name on 26 September. That
-sentence must be corrected when the manuscript is next revised, and must not
-be used to override the inventory above. Stage 1 results and remaining
-configuration limitations below are the current record; manuscript revision
-and Stage 2 extraction remain separate work.

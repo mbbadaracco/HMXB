@@ -60,7 +60,7 @@ different definitions of phase zero.
 
 `PROVENANCE.md` is the entry point for anyone checking the work. It is organised by result
 identifier (`S-…` sample, `X-…` cross-match and images, `C-…` what the catalogues report,
-`R-…` reduction and fits, `M-…` manuscript), and every entry carries a **Checked** and, where it
+`R-…` reduction and fits), and every entry carries a **Checked** and, where it
 applies, a **Not checked** paragraph.
 
 ## Environment
