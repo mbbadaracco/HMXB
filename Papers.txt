@@ -1,0 +1,78 @@
+Papers cited
+============
+
+The references for the individual orbital parameters --- period, eccentricity,
+spin period, masses, radial velocity --- are not listed here. They are F23's
+references, and F23 is cited below; they are carried per system in the reference
+columns of Output/hmxb_orbital_parameters.csv.
+
+
+  2003  Grimm                  X-ray binaries in the Milky Way and other galaxies
+  2003  Prestwich et al.       Classifying X-Ray Sources in External Galaxies from X-Ray Colors
+                               doi:10.1086/377366
+  2009  Aragona et al.         The Orbits of the $\gamma$-ray Binaries LS I +61 303 and LS 5039
+                               doi:10.1088/0004-637X/698/1/514
+  2009  Bird et al.            Discovery of a 30-d period in the supergiant fast X-ray transient SAX J1818.6-1703
+                               doi:10.1111/j.1745-3933.2008.00589.x
+  2009  Watson et al.          The XMM-Newton serendipitous survey. V. The Second XMM-Newton serendipitous source catalogue
+                               doi:10.1051/0004-6361:200810534
+  2010  Raichur et al.         Apsidal motion in 4U 0115+63 and orbital parameters of 2S 1417-624 and V0332+53
+                               doi:10.1111/j.1365-2966.2010.16862.x
+  2011  Pineau et al.          Cross-correlation of the 2XMMi catalogue with Data Release 7 of the Sloan Digital Sky Survey
+                               doi:10.1051/0004-6361/201015141
+  2011  Staubert et al.        Finding a 24-day orbital period for the X-ray binary 1A 1118-616
+                               doi:10.1051/0004-6361/201015737
+  2012  McQuinn                Constraints on X-ray emissions from the reionization era
+                               doi:10.1111/j.1365-2966.2012.21792.x
+  2013  Goossens et al.        Discovering a 5.72-d period in the supergiant fast X-ray transient AX J1845.0-0433
+                               doi:10.1093/mnras/stt1166
+  2013  Power et al.           Feedback from High-mass X-Ray Binaries on the High-redshift Intergalactic Medium: Model Spectra
+                               doi:10.1088/0004-637X/764/1/76
+  2014  Knevitt et al.         Heating and ionization of the primordial intergalactic medium by high-mass X-ray binaries
+                               doi:10.1093/mnras/stu1803
+  2015  Falanga et al.         Ephemeris, orbital decay, and masses of ten eclipsing high-mass X-ray binaries
+                               doi:10.1051/0004-6361/201425191
+  2016  Haberl et al.          High-mass X-ray binaries in the Small Magellanic Cloud
+                               doi:10.1051/0004-6361/201527326
+  2017  Sazonov et al.         The intrinsic collective X-ray spectrum of luminous high-mass X-ray binaries
+                               doi:10.1093/mnras/stx626
+  2018  Sidoli et al.          An INTEGRAL overview of High-Mass X-ray Binaries: classes or transitions?
+                               doi:10.1093/mnras/sty2428
+  2019  Traulsen et al.        The XMM-Newton serendipitous survey. VIII. The first XMM-Newton serendipitous source catalogue from overlapping observations
+                               doi:10.1051/0004-6361/201833938
+  2020  Traulsen et al.        The XMM-Newton serendipitous survey. X. The second source catalogue from overlapping XMM-Newton observations and its long-term variable content
+                               doi:10.1051/0004-6361/202037706
+  2021  Bailer-Jones et al.    Estimating Distances from Parallaxes. V. Geometric and Photogeometric Distances to 1.47 Billion Stars in Gaia Early Data Release 3
+                               doi:10.3847/1538-3881/abd806
+  2022  Tranin et al.          Probabilistic classification of X-ray sources applied to Swift-XRT and XMM-Newton catalogs
+                               doi:10.1051/0004-6361/202141259
+  2023  Fornasini et al.       High-mass X-ray Binaries
+                               arXiv:2308.02645
+  2023  Fortin et al.          A catalogue of high-mass X-ray binaries in the Galaxy: from the INTEGRAL to the Gaia era
+                               doi:10.1051/0004-6361/202245236
+  2023  Neumann et al.         XRBcats: Galactic High Mass X-ray Binary Catalogue
+                               doi:10.1051/0004-6361/202245728
+  2024  Bozzo et al.           NuSTAR and Swift observations of two supergiant fast X-ray transients: AX J1841.0-0536 and SAX J1818.6-1703
+                               doi:10.1093/mnras/stae061
+  2024  Doroshenko             3D-$N_{\rm H}$-tool
+                               arXiv:2403.03127
+  2024  Evans et al.           The Chandra Source Catalog Release 2 Series
+                               arXiv:2407.10799
+  2024  Fortin et al.          A catalogue of low-mass X-ray binaries in the Galaxy: from the INTEGRAL to the Gaia era
+                               doi:10.1051/0004-6361/202347908
+  2025  Arnaud et al.          XSPEC: An X-Ray Spectral Fitting Package, Users' Guide for version 12.15.0
+                               HEASARC, NASA/GSFC
+  2025  SOC                    Users Guide to the XMM-Newton Science Analysis System
+  2026  Prokhorenko et al.     SRG/eROSITA-SDSS view on the relation between X-ray and UV emission for quasars
+                               doi:10.1016/j.jheap.2026.100611
+  2026  Webb et al.            The XMM-Newton serendipitous survey. XI. The fifth XMM-Newton serendipitous source catalogue
+
+
+One reference of F23 that is gone
+---------------------------------
+F23 cites the preprint 2015arXiv150301087G for six quantities of
+AX J1841.0-0536 and IGR J18450-0435. It was withdrawn from arXiv and is no longer
+retrievable, so those six values were discarded rather than carried on trust.
+What replaces them is read from two papers that are available, both cited above:
+Goossens et al. (2013) for the 5.72 d period of AX J1845.0-0433, the other name of
+IGR J18450-0435, and Bozzo et al. (2024) for AX J1841.0-0536.

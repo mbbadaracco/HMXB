@@ -127,7 +127,7 @@ Not included, with how to obtain each:
 |---|---|---|
 | `Observations/*_repro/`, `Observations/Images/` products | 367 GB | the download and reprocessing scripts above |
 | `5XMM-DR15/5XMM_DR15.fits.gz` | 2.4 GB | <https://xmmssc.irap.omp.eu/Catalogue/5XMM-DR15/> |
-| `Papers/`, `work/f23_refs/` | 186 MB | published papers; `download_f23_refs.py` fetches the F23 references |
+| `Papers/`, `work/f23_refs/` | 186 MB | published papers: those in `Papers/` are listed in [`Papers.txt`](Papers.txt); `download_f23_refs.py` fetches the F23 references |
 | `work/env`, `work/env_bxa`, `work/texlive` | 3.7 GB | `environment.yml` and `setup_texlive.sh` |
 | `work/csc_products`, `work/epic_rmf`, `work/xmm_pps`, `work/stage1_xmm` | 847 MB | the three download scripts above |
 
@@ -135,6 +135,14 @@ Not included, with how to obtain each:
 (`hmxb_5arcsec_csc.tsv`, made with `cscquery.prop`) and the F23 machine-readable table
 (`f23_tablea_catalog.csv`). The byte-range version F23 publishes, with its ReadMe, is in
 `work/Input/HMXB/`.
+
+**`Papers.txt` lists the papers that should be stored in `Papers/`.** They are the papers this
+work cites, and the only ones it may cite (see `Agreement.md`); they are not shipped because they
+are not ours to redistribute. Download each one (by the DOI or arXiv identifier given in the list, where there is one) and
+save it as a PDF in a `Papers/` folder at the root of the repository. The references for the
+individual orbital parameters are not in that list: they are F23's, and are carried per system in
+`work/Output/hmxb_orbital_parameters.csv`; `download_f23_refs.py` fetches them into
+`work/f23_refs/`.
 
 ## A note on how it was made
 
