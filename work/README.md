@@ -1,7 +1,6 @@
 # work/
 
-Everything produced for this project lives here. The manuscript is in
-`../manuscript_aanda/`.
+Everything produced for this project lives here.
 
 ## Layout
 
@@ -36,8 +35,8 @@ refit_xmm_stage1.py      Stage 1 for XMM-Newton, 6 at a time, with BXA
                          and UltraNest in env_bxa.  Needs HEASoft.
 environment.yml          the conda environment.
 setup_texlive.sh         installs the LaTeX toolchain into work/texlive.
-PROVENANCE.md            where every statement in the manuscript comes
-                         from, and what has NOT been checked.
+PROVENANCE.md            where every result comes from, and what has
+                         NOT been checked.
 Input/                   catalogues and VizieR query results (read-only).
 Output/                  the tables the scripts and notebooks write.
 f23_refs/                the papers F23 cites, fetched for reading only.
@@ -66,15 +65,12 @@ the system temporary directory and deletes it again at the end.  Set
 `XMM_FITS_CACHE` to put it elsewhere, or `KEEP_XMM_FITS = True` in the
 notebook to keep it.
 
-and for the manuscript
+and for the summary
 
 ```bash
 ./setup_texlive.sh          # only once
-cd ../manuscript_aanda && make check
+cd summary && ../texlive/bin/x86_64-linux/pdflatex summary.tex
 ```
-
-`make check` fails on an undefined reference, an undefined citation or a
-LaTeX error; it does not merely build.
 
 ## Notes
 

@@ -5,7 +5,7 @@
 # ~/Software/gwtex ships TeX binaries but zero packages -- its
 # share/texmf-dist/tex/latex is empty), and sudo requires a password, so
 # apt is not an option.  This script is the sequence that was actually
-# run; re-running it reproduces the toolchain the manuscript is built
+# run; re-running it reproduces the toolchain the summary is built
 # with.
 set -euo pipefail
 
@@ -39,9 +39,7 @@ PROFILE
 
 "$INST" -profile "$TMP/tl.profile"
 
-# aa.cls v9.4 loads cuted.sty and flushend.sty, both in sttools.
-# collection-latexextra pulls those in along with everything else the
-# official aa_example.tex exercises.
+# Packages added on top of scheme-small.
 export PATH="$W/texlive/bin/x86_64-linux:$PATH"
 tlmgr install sttools txfonts collection-latexextra \
               collection-fontsrecommended collection-bibtexextra
