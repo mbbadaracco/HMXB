@@ -1,0 +1,2167 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2026-09-08T21:27:19 [V7.6]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-09-08T21:27:19	  Query execution date
+#INFO	request=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-oc.form=dec&-c.r=  2&-c.geom=r&-source=I/355/gaiadr3&-order=I&-out.orig=standard&-out=DR3Name&-out=RA_ICRS&-out=DE_ICRS&-out=e_RA_ICRS&-out=e_DE_ICRS&-out.max=unlimited&-c.eq=J2000&-c.u=arcsec&	  Full request URL (POST)
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+
+#RESOURCE=yCat_1355
+#Name: I/355
+#Title: Gaia DR3 Part 1. Main source (Gaia Collaboration, 2022)
+#INFO	ivoid=ivo://cds.vizier/i/355	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/i/355	    IVOID of underlying data collection
+#INFO	creator=Gaia collaboration	    First author or institution
+#INFO	cites=bibcode:2022yCat.1355....0G	    Bibcode of the dataset
+#INFO	journal=yCat	    Journal name
+#INFO	original_date=2022	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/I/355	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.1355	    Dataset identifier that can be used for citation
+#INFO	publication_date=2024-12-12	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#INFO	-c=009.290133+61.360133,rs=2.	
+#Constraint 9.2901325802,61.36013319063
+#
+#Coosys	H_2016.000:	ICRS
+#Table	I_355_gaiadr3:
+#Name: I/355/gaiadr3
+#Title: Gaia DR3 source catalog (1811709771 sources)
+#Column	DR3Name	(a28)	Unique source designation (unique across all Data Releases) (designation)	[ucd=meta.id]
+#Column	RA_ICRS	(F15.11)	Right ascension (ICRS) at Ep=2016.0 (ra)	[ucd=pos.eq.ra;meta.main]
+#Column	DE_ICRS	(F15.11)	Declination (ICRS) at Ep=2016.0 (dec)	[ucd=pos.eq.dec;meta.main]
+#Column	e_RA_ICRS	(F7.4)	Standard error of right ascension (ra_error)	[ucd=stat.error;pos.eq.ra]
+#Column	e_DE_ICRS	(F7.4)	Standard error of declination (dec_error)	[ucd=stat.error;pos.eq.dec]
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 427234969757165952 	009.29013258020	+61.36013319063	 0.0084	 0.0098
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=014.177451+60.716723,rs=2.	
+#Constraint 14.17745099821,60.71672280471
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 426558460884582016 	014.17745099821	+60.71672280471	 1.8336	 2.3912
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=018.996041+59.153945,rs=2.	
+#Constraint 18.99604069884,59.15394486766
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 414196617287885312 	018.99604069884	+59.15394486766	 0.0110	 0.0128
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=019.511227+65.291623,rs=2.	
+#Constraint 19.51122704686,65.29162260285
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 524924310153249920 	019.51122704686	+65.29162260285	 0.0075	 0.0089
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=019.633193+63.742522,rs=2.	
+#Constraint 19.63319348306,63.74252240558
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 524677469790488960 	019.63319348306	+63.74252240558	 0.0109	 0.0121
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=023.957717+66.212023,rs=2.	
+#Constraint 23.95771733364,66.2120234668
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 519352324516039680 	023.95771733364	+66.21202346680	 0.0074	 0.0083
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=026.750875+61.356573,rs=2.	
+#Constraint 26.75087548765,61.35657291151
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 511220031584305536 	026.75087548765	+61.35657291151	 0.0115	 0.0138
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=029.577033+67.223185,rs=2.	
+#Constraint 29.57703291339,67.22318460661
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 518990967445248256 	029.57703291339	+67.22318460661	 0.0088	 0.0102
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=040.131931+61.229331,rs=2.	
+#Constraint 40.13193126483,61.22933050839
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 465645515129855872 	040.13193126483	+61.22933050839	 0.0073	 0.0092
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=040.918432+61.434378,rs=2.	
+#Constraint 40.91843191991,61.43437766836
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 465628193526364416 	040.91843191991	+61.43437766836	 0.0068	 0.0086
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=053.749630+53.173140,rs=2.	
+#Constraint 53.74962972498,53.17313997828
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 444752973131169664 	053.74962972498	+53.17313997828	 0.0139	 0.0127
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=058.846151+31.045836,rs=2.	
+#Constraint 58.84615062234,31.04583609186
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 168450545792009600 	058.84615062234	+31.04583609186	 0.0296	 0.0208
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=064.925561+55.999361,rs=2.	
+#Constraint 64.92556123477,55.99936067904
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 276644757710014976 	064.92556123477	+55.99936067904	 0.0126	 0.0081
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=070.247207+44.530344,rs=2.	
+#Constraint 70.247207393,44.53034418648
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 252878401557369088 	070.24720739300	+44.53034418648	 0.0119	 0.0084
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=080.646805+37.675993,rs=2.	
+#Constraint 80.64680481184,37.67599293642
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 184497471323752064 	080.64680481184	+37.67599293642	 0.0254	 0.0196
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=084.727392+26.315775,rs=2.	
+#Constraint 84.72739245821,26.3157752444
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 3441207615229815040	084.72739245821	+26.31577524440	 0.0203	 0.0158
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=088.979340+28.785107,rs=2.	
+#Constraint 88.97934004292,28.78510745618
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 3431561565357225088	088.97934004292	+28.78510745618	 0.0253	 0.0193
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=091.860886+22.096597,rs=2.	
+#Constraint 91.86088634198,22.09659725892
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 3423526544838563328	091.86088634198	+22.09659725892	 0.0159	 0.0136
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=098.246902+05.800321,rs=2.	
+#Constraint 98.24690241609,5.80032052835
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 3131822364779745536	098.24690241609	+05.80032052835	 0.0175	 0.0163
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=098.826164+05.551745,rs=2.	
+#Constraint 98.82616381073,5.55174484414
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 3131755947406031104	098.82616381073	+05.55174484414	 0.0117	 0.0120
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=104.560438-07.212490,rs=2.	
+#Constraint 104.56043808872,-7.21248985203
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 3052677284433717504	104.56043808872	-07.21248985203	 0.0380	 0.0376
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=112.223241-26.108019,rs=2.	
+#Constraint 112.22324075355,-26.10801904281
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5613494119551805184	112.22324075355	-26.10801904281	 0.0090	 0.0132
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=118.927022-29.564858,rs=2.	
+#Constraint 118.92702181368,-29.56485835566
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5597252305589385984	118.92702181368	-29.56485835566	 0.0087	 0.0116
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=123.118149-31.247807,rs=2.	
+#Constraint 123.11814876923,-31.24780669997
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5548261400354128768	123.11814876923	-31.24780669997	 0.0075	 0.0100
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=126.556880-37.619950,rs=2.	
+#Constraint 126.5568795087,-37.61995049188
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5541793213959987968	126.55687950870	-37.61995049188	 0.0065	 0.0089
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=128.981075-43.185600,rs=2.	
+#Constraint 128.981075,-43.1856
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5523448270462666880	128.98107169894	-43.18559738897	 0.0894	 0.1015
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=130.199187-45.058395,rs=2.	
+#Constraint 130.199187,-45.058395
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5522306019626566528	130.19908438922	-45.05837165994	 0.0142	 0.0142
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=135.528559-40.554653,rs=2.	
+#Constraint 135.52855879751,-40.55465296118
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5620657678322625920	135.52855879751	-40.55465296118	 0.0109	 0.0127
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=152.445645-58.293207,rs=2.	
+#Constraint 152.44564453704,-58.29320747534
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5258414192353423360	152.44564453704	-58.29320747534	 0.0117	 0.0112
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=152.549416-56.925542,rs=2.	
+#Constraint 152.5494159915,-56.92554247032
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5259009543533179648	152.54941599150	-56.92554247032	 0.0686	 0.0640
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=154.731559-58.946094,rs=2.	
+#Constraint 154.73155926817,-58.94609420856
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5255509901121774976	154.73155926817	-58.94609420856	 0.0093	 0.0094
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=159.397170-56.798859,rs=2.	
+#Constraint 159.39717,-56.798859
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5352018121173519488	159.39709263440	-56.79883928572	 0.0146	 0.0141
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=166.808000-59.873098,rs=2.	
+#Constraint 166.80799982117,-59.87309817392
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5337747731560719616	166.80799982117	-59.87309817392	 0.0231	 0.0225
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=170.238173-61.916707,rs=2.	
+#Constraint 170.23817252152,-61.91670671056
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5336957010898124160	170.23817252152	-61.91670671056	 0.0088	 0.0095
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=170.312855-60.623776,rs=2.	
+#Constraint 170.3128552789,-60.62377582639
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5337498593446516480	170.31285527890	-60.62377582639	 0.0116	 0.0112
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=170.445054-59.863313,rs=2.	
+#Constraint 170.44505383092,-59.86331299057
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5339047221168787712	170.44505383092	-59.86331299057	 0.0097	 0.0107
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=172.778741-62.946919,rs=2.	
+#Constraint 172.7787408554,-62.94691902264
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5333660129603575808	172.77874085540	-62.94691902264	 0.0360	 0.0389
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=176.001172-61.126796,rs=2.	
+#Constraint 176.00117181802,-61.12679578911
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5335021664274920576	176.00117181802	-61.12679578911	 0.0236	 0.0238
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=176.868940-61.953719,rs=2.	
+#Constraint 176.86894042634,-61.95371922583
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5334851450481641088	176.86894042634	-61.95371922583	 0.0075	 0.0090
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=177.000030-62.206910,rs=2.	
+#Constraint 177.00003001549,-62.20691022592
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5334823859608495104	177.00003001549	-62.20691022592	 0.0140	 0.0143
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=183.311569-64.875133,rs=2.	
+#Constraint 183.3115687929,-64.87513252304
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 6053076566300433920	183.31156879290	-64.87513252304	 0.0124	 0.0152
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=186.656451-62.770359,rs=2.	
+#Constraint 186.65645139154,-62.77035949368
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 6054569565614460800	186.65645139154	-62.77035949368	 0.0120	 0.0133
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=188.467000-61.796000,rs=2.	
+#Constraint 188.467,-61.796
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 6054775002473033984	188.46762987804	-61.79593291229	 0.2977	 0.3162
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=190.427410-60.272170,rs=2.	
+#Constraint 190.42741,-60.27217
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=190.709317-63.058642,rs=2.	
+#Constraint 190.70931703329,-63.05864217079
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 6055103928246312960	190.70931703329	-63.05864217079	 0.0529	 0.0545
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=190.824821-60.201519,rs=2.	
+#Constraint 190.824821,-60.201519
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=195.321196-61.601845,rs=2.	
+#Constraint 195.32119649506,-61.60184481323
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5863533199843070208	195.32119649506	-61.60184481323	 0.0090	 0.0109
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=195.494605-63.969122,rs=2.	
+#Constraint 195.4946052393,-63.96912167623
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5862285700835092352	195.49460523930	-63.96912167623	 0.0599	 0.0652
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=195.698489-63.835731,rs=2.	
+#Constraint 195.69848851536,-63.83573123377
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5862299960127967488	195.69848851536	-63.83573123377	 0.0089	 0.0100
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=199.606616-62.970812,rs=2.	
+#Constraint 199.60661593678,-62.97081244662
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5862260304669853056	199.60661593678	-62.97081244662	 0.0561	 0.0643
+Gaia DR3 5862260309033965056	199.60753738825	-62.97104010221	 0.9492	 1.0643
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=201.111047-62.021980,rs=2.	
+#Constraint 201.111047,-62.02198
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=206.635666-62.923387,rs=2.	
+#Constraint 206.63566597037,-62.92338696174
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5864664975280537728	206.63566597037	-62.92338696174	 0.0169	 0.0196
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=211.310065-61.307838,rs=2.	
+#Constraint 211.310065,-61.307838
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=212.011320-61.983891,rs=2.	
+#Constraint 212.01132,-61.983891
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=215.300608-62.698922,rs=2.	
+#Constraint 215.30060802582,-62.69892176003
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5854175183381111808	215.30063449571	-62.69836808388	 0.1299	 0.1913
+Gaia DR3 5854175187680510336	215.30140070272	-62.69887940172	 0.0446	 0.0705
+Gaia DR3 5854175187710795136	215.30060802582	-62.69892176003	 0.0217	 0.0335
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=218.284653-61.261074,rs=2.	
+#Constraint 218.28465330129,-61.26107376019
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5878377736381364608	218.28465330129	-61.26107376019	 0.0637	 0.0853
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=222.180092-59.703815,rs=2.	
+#Constraint 222.180092,-59.703815
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=230.170176-57.166742,rs=2.	
+#Constraint 230.17017640757,-57.16674216654
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5883218164517055488	230.17017640757	-57.16674216654	 0.1002	 0.1010
+Gaia DR3 5883218168831310976	230.17096522708	-57.16692210387	 5.8073	 7.0336
+Gaia DR3 5883218168831311872	230.17025545597	-57.16636807294	 0.2505	 0.2118
+Gaia DR3 5883218168840554112	230.16982609270	-57.16635773517	 0.4746	 0.5760
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=235.597298-52.386012,rs=2.	
+#Constraint 235.59729827777,-52.38601199162
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5886085557746480000	235.59729827777	-52.38601199162	 0.0109	 0.0094
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=236.022060-56.761674,rs=2.	
+#Constraint 236.02205987233,-56.76167443177
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5882543820303309696	236.02205987233	-56.76167443177	 0.0852	 0.0836
+Gaia DR3 5882543824607819776	236.02135471815	-56.76187017075	 0.2326	 0.2186
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=238.590675-55.328990,rs=2.	
+#Constraint 238.59067450083,-55.3289895306
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5884544931471259136	238.59067450083	-55.32898953060	 0.0127	 0.0105
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=239.451392-54.415098,rs=2.	
+#Constraint 239.45139166912,-54.41509807289
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5884711610544522112	239.45139166912	-54.41509807289	 2.2286	 1.9049
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=244.884095-49.741826,rs=2.	
+#Constraint 244.88409544759,-49.74182617003
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5935509395659726592	244.88409544759	-49.74182617003	 0.0422	 0.0251
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=245.192734-51.501706,rs=2.	
+#Constraint 245.19273371547,-51.50170602014
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5934776158877214848	245.19273371547	-51.50170602014	 0.0375	 0.0263
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=246.652188-51.941818,rs=2.	
+#Constraint 246.652188,-51.941818
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5933976985714972544	246.65218418936	-51.94133692441	 0.8768	 0.7227
+Gaia DR3 5933976985766949376	246.65214511693	-51.94184815730	 0.0309	 0.0222
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=247.045134-48.648914,rs=2.	
+#Constraint 247.045134,-48.648914
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=247.951258-48.816877,rs=2.	
+#Constraint 247.95125817288,-48.81687706741
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5940777877435137024	247.95125817288	-48.81687706741	 0.1313	 0.0885
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=248.007333-47.874722,rs=2.	
+#Constraint 248.007333,-47.874722
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=248.158287-47.394548,rs=2.	
+#Constraint 248.15828734749,-47.39454755452
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5941324334694123008	248.15828734749	-47.39454755452	 0.5172	 0.2918
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=248.166385-49.703829,rs=2.	
+#Constraint 248.16638484576,-49.70382899144
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5940576971716473344	248.16638484576	-49.70382899144	 0.0411	 0.0266
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=249.306236-50.724595,rs=2.	
+#Constraint 249.30623574098,-50.72459536144
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5940285090050544512	249.30623574098	-50.72459536144	 0.4927	 0.3548
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=249.772846-46.703545,rs=2.	
+#Constraint 249.772846,-46.703545
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5942638079315454976	249.77227010532	-46.70380410405	 2.0791	 0.8693
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=250.461623-45.540375,rs=2.	
+#Constraint 250.461623,-45.540375
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5943166184173519744	250.46160612338	-45.54040336052	 1.3305	 0.6542
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=251.646902-45.117961,rs=2.	
+#Constraint 251.64690161253,-45.11796081034
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5943246345430928512	251.64690161253	-45.11796081034	 0.0156	 0.0103
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=252.027341-45.201893,rs=2.	
+#Constraint 252.027341,-45.201893
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=252.362308-43.819180,rs=2.	
+#Constraint 252.362308,-43.81918
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=255.018130-41.968217,rs=2.	
+#Constraint 255.01813049348,-41.9682172644
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5966358526537377664	255.01827332743	-41.96864392418	 0.9541	 0.5683
+Gaia DR3 5966358530819164544	255.01813049348	-41.96821726440	 0.2962	 0.1639
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=255.080373-42.338638,rs=2.	
+#Constraint 255.08037320535,-42.33863811657
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=255.203682-41.655960,rs=2.	
+#Constraint 255.203682,-41.65596
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=255.986566-37.844120,rs=2.	
+#Constraint 255.98656593018,-37.84412027228
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5976382915813535232	255.98656593018	-37.84412027228	 0.0210	 0.0121
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=258.432969-39.201566,rs=2.	
+#Constraint 258.4329687698,-39.201565709
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 5972298848613586048	258.43296876980	-39.20156570900	 1.7849	 1.0271
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=258.985248-38.864929,rs=2.	
+#Constraint 258.985248,-38.864929
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=261.297465-36.282646,rs=2.	
+#Constraint 261.297465,-36.282646
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=263.864997-32.931823,rs=2.	
+#Constraint 263.86499688215,-32.93182312091
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4054559284753424000	263.86499688215	-32.93182312091	 0.3287	 0.2625
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=264.392080-30.388060,rs=2.	
+#Constraint 264.39208,-30.38806
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=264.798129-30.343813,rs=2.	
+#Constraint 264.79812927251,-30.34381326585
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4056922105185686784	264.79812927251	-30.34381326585	 0.0404	 0.0327
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=264.887967-29.724584,rs=2.	
+#Constraint 264.88796736281,-29.72458420595
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4057023702632783744	264.88796736281	-29.72458420595	 0.5910	 0.3943
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=265.755567-36.372829,rs=2.	
+#Constraint 265.755567,-36.372829
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4040960662373474176	265.75551465281	-36.37284591520	 0.0815	 0.0572
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=265.978478-29.745278,rs=2.	
+#Constraint 265.978478,-29.745278
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=266.190686-27.229032,rs=2.	
+#Constraint 266.19068598154,-27.2290321368
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4060784345959549184	266.19068598154	-27.22903213680	 0.0199	 0.0157
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=267.278701-27.542513,rs=2.	
+#Constraint 267.27870137362,-27.54251319626
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=267.301667-27.427286,rs=2.	
+#Constraint 267.30166693798,-27.42728618715
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=267.304000-26.644056,rs=2.	
+#Constraint 267.304,-26.64405555556
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=267.575261-26.604673,rs=2.	
+#Constraint 267.575261,-26.604673
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=268.605299-26.331274,rs=2.	
+#Constraint 268.60529870303,-26.33127433695
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4063908810076415872	268.60529870303	-26.33127433695	 0.0222	 0.0173
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=270.301971-25.743279,rs=2.	
+#Constraint 270.30197072334,-25.74327909233
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4064178675797466624	270.30197072334	-25.74327909233	 0.9191	 0.8675
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=270.674737-20.288167,rs=2.	
+#Constraint 270.67473685833,-20.288166797
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4070968778561141760	270.67473685833	-20.28816679700	 0.1047	 0.0885
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=272.070386-19.327656,rs=2.	
+#Constraint 272.070386,-19.327656
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=274.178003-16.222834,rs=2.	
+#Constraint 274.17800348911,-16.22283425276
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=274.657903-17.046678,rs=2.	
+#Constraint 274.6579027264,-17.04667815885
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4097365235226829312	274.65790272640	-17.04667815885	 0.1514	 0.1358
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=274.840139-25.407179,rs=2.	
+#Constraint 274.84013919092,-25.40717851926
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4053096388919082368	274.84013919092	-25.40717851926	 0.0204	 0.0185
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=275.125402-14.573023,rs=2.	
+#Constraint 275.125402,-14.573023
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=275.332343-13.310891,rs=2.	
+#Constraint 275.33234250045,-13.31089095675
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4152643113595580416	275.33234250045	-13.31089095675	 0.2299	 0.2109
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=275.478371-13.790737,rs=2.	
+#Constraint 275.47837109829,-13.79073744848
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=276.098420-14.415510,rs=2.	
+#Constraint 276.09842,-14.41551
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=276.432624-10.583894,rs=2.	
+#Constraint 276.43262358837,-10.5838937782
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4154264171696059520	276.43262358837	-10.58389377820	 1.0122	 1.0902
+Gaia DR3 4154264240415536128	276.43233029006	-10.58391424501	 1.0061	 1.0106
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=276.562768-14.848438,rs=2.	
+#Constraint 276.56276812017,-14.84843824831
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4104196427943626624	276.56276812017	-14.84843824831	 0.0127	 0.0113
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=277.433292-09.856454,rs=2.	
+#Constraint 277.43329223777,-9.85645360706
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=278.365700-10.590125,rs=2.	
+#Constraint 278.36569954826,-10.59012479485
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4155000844481174656	278.36569954826	-10.59012479485	 0.1535	 0.1475
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=278.367919-10.402433,rs=2.	
+#Constraint 278.36791853438,-10.40243295086
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4155023796790984064	278.36791853438	-10.40243295086	 0.0240	 0.0206
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=279.519278-06.902430,rs=2.	
+#Constraint 279.51927780095,-6.90242990402
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4252969319080954496	279.51927780095	-06.90242990402	 8.6357	 9.0228
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=280.280166-05.581654,rs=2.	
+#Constraint 280.28016644801,-5.58165403928
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4256502088596680960	280.28016644801	-05.58165403928	 0.0164	 0.0151
+Gaia DR3 4256502088634017920	280.28046129627	-05.58166428165	 3.9912	 4.7045
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=280.397060-05.842360,rs=2.	
+#Constraint 280.39706,-5.84236
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4253479702986796416	280.39746599666	-05.84247792117	 0.6693	 0.7038
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=281.256619-04.565759,rs=2.	
+#Constraint 281.25661916606,-4.56575904237
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4258160560148155648	281.25661916606	-04.56575904237	 0.0189	 0.0192
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=281.403473+00.863159,rs=2.	
+#Constraint 281.4034733687,0.86315946802
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4278536022438800640	281.40347336870	+00.86315946802	 0.1681	 0.1849
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=281.553769-02.374691,rs=2.	
+#Constraint 281.55376940451,-2.37469119601
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4259088994647732864	281.55376940451	-02.37469119601	 0.2356	 0.2533
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=282.064171+00.792571,rs=2.	
+#Constraint 282.064171,0.792571
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=282.070354-02.423608,rs=2.	
+#Constraint 282.070354,-2.423608
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=282.071686-03.171368,rs=2.	
+#Constraint 282.07168612166,-3.17136768374
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4258428501693172736	282.07168612166	-03.17136768374	 0.1365	 0.1419
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=283.876680-02.604679,rs=2.	
+#Constraint 283.87668002005,-2.6046794194
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4255891924062617088	283.87668002005	-02.60467941940	 0.0142	 0.0143
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=284.681906+03.434746,rs=2.	
+#Constraint 284.681906,3.434746
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=284.756814+08.245672,rs=2.	
+#Constraint 284.756814,8.245672
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4310118570526845696	284.75682729295	+08.24595714259	 0.3076	 0.3656
+Gaia DR3 4310118570535453696	284.75680882609	+08.24545725431	 0.2964	 0.3373
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=285.914128+03.204358,rs=2.	
+#Constraint 285.91412803533,3.20435796814
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4268774695647764352	285.91412803533	+03.20435796814	 0.1936	 0.1904
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=286.197769+09.044911,rs=2.	
+#Constraint 286.19776875399,9.0449110404
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4310649153642824320	286.19776875399	+09.04491104040	 0.5594	 0.6179
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=287.408533+09.829777,rs=2.	
+#Constraint 287.40853278192,9.82977678034
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4309225217336729088	287.40853278192	+09.82977678034	 0.0258	 0.0278
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=287.681682+09.274764,rs=2.	
+#Constraint 287.681682,9.274764
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=287.700872+07.597656,rs=2.	
+#Constraint 287.70087185633,7.59765630241
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4306419980916246656	287.70087185633	+07.59765630241	 0.6633	 0.8159
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=287.821308+15.553769,rs=2.	
+#Constraint 287.82130827581,15.55376902853
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4512788387794112640	287.82130827581	+15.55376902853	 0.5731	 0.6860
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=287.956506+04.982709,rs=2.	
+#Constraint 287.95650636991,4.98270852726
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4293406612283985024	287.95650636991	+04.98270852726	 0.0184	 0.0184
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=288.517606+09.882864,rs=2.	
+#Constraint 288.51760590601,9.88286437365
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4309253392325650176	288.51760590601	+09.88286437365	 0.3039	 0.3367
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=288.736351+10.610154,rs=2.	
+#Constraint 288.73635095845,10.61015373713
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4309736077923798912	288.73635095845	+10.61015373713	 1.5138	 1.4536
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=292.482926+18.310606,rs=2.	
+#Constraint 292.48292610722,18.31060597633
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 4323316622779495680	292.48292610722	+18.31060597633	 0.6488	 0.7901
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=295.546522+25.934890,rs=2.	
+#Constraint 295.54652236458,25.93489035046
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2021785421455305344	295.54652236458	+25.93489035046	 0.0321	 0.0477
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=296.413975+27.365399,rs=2.	
+#Constraint 296.41397487956,27.36539915248
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2028089540103670144	296.41397487956	+27.36539915248	 0.0170	 0.0223
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=297.397839+30.208808,rs=2.	
+#Constraint 297.39783883472,30.2088084874
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2031939548802102656	297.39783883472	+30.20880848740	 0.0088	 0.0118
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=297.480949+25.566595,rs=2.	
+#Constraint 297.48094936995,25.56659484642
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2026914849346539008	297.48094936995	+25.56659484642	 0.0129	 0.0192
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=298.926398+32.096930,rs=2.	
+#Constraint 298.92639832143,32.09693031874
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2034031438383765760	298.92639832143	+32.09693031874	 0.0161	 0.0213
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=299.590295+35.201579,rs=2.	
+#Constraint 299.59029482904,35.20157876511
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2059383668236814720	299.59029482904	+35.20157876511	 0.0109	 0.0130
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=300.091049+32.189739,rs=2.	
+#Constraint 300.09104899634,32.18973933161
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2033989790047905024	300.09104899634	+32.18973933161	 0.0144	 0.0174
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=304.799943+45.667185,rs=2.	
+#Constraint 304.79994307775,45.66718469428
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2081690658900784896	304.79994307775	+45.66718469428	 0.1955	 0.2218
+Gaia DR3 2081690663198546176	304.80022702420	+45.66703620231	 3.2003	10.3926
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=307.628504+47.864068,rs=2.	
+#Constraint 307.62850374937,47.86406792934
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2083644392294059520	307.62850374937	+47.86406792934	 0.0142	 0.0151
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=308.063627+37.637432,rs=2.	
+#Constraint 308.06362685512,37.63743239547
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2063791369815322752	308.06362685512	+37.63743239547	 0.0614	 0.0760
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=308.107422+40.957756,rs=2.	
+#Constraint 308.107422,40.957756
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=314.698058+41.776980,rs=2.	
+#Constraint 314.69805829882,41.77697968527
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2065653598916388352	314.69805829882	+41.77697968527	 0.0110	 0.0128
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=315.898770+45.751533,rs=2.	
+#Constraint 315.89876969225,45.75153283211
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2162805896614571904	315.89876969225	+45.75153283211	 0.0108	 0.0105
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=323.584868+47.633379,rs=2.	
+#Constraint 323.58486828065,47.63337917571
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 1978365123143522176	323.58486828065	+47.63337917571	 0.0112	 0.0112
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=324.877852+56.986219,rs=2.	
+#Constraint 324.87785209105,56.98621852916
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2178178409188167296	324.87785209105	+56.98621852916	 0.0115	 0.0119
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=330.409192+50.167952,rs=2.	
+#Constraint 330.40919197022,50.16795238314
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 1979911002134040960	330.40919197022	+50.16795238314	 0.0112	 0.0111
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=331.984288+54.518432,rs=2.	
+#Constraint 331.98428755193,54.5184321708
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2005653524280214400	331.98428755193	+54.51843217080	 0.0121	 0.0113
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=339.836830+61.274053,rs=2.	
+#Constraint 339.83682979593,61.27405311885
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2201091578667140352	339.83682979593	+61.27405311885	 0.0125	 0.0121
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=340.738741+44.721725,rs=2.	
+#Constraint 340.73874140526,44.72172459979
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 1982359580155628160	340.73874140526	+44.72172459979	 0.0132	 0.0143
+
+
+#RESOURCE=
+#Name:
+#Title:
+#INFO	-c=343.479671+62.726882,rs=2.	
+#Constraint 343.47967087768,62.72688234992
+#
+#Table	I_355_gaiadr3:I_355_gaiadr3
+#Name: I/355/gaiadr3
+#Title:
+DR3Name	RA_ICRS	DE_ICRS	e_RA_ICRS	e_DE_ICRS
+ 	deg	deg	mas	mas
+----------------------------	---------------	---------------	-------	-------
+Gaia DR3 2207277877757956352	343.47967087768	+62.72688234992	 0.0151	 0.0162
+

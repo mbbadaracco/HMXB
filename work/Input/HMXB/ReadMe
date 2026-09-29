@@ -1,0 +1,180 @@
+J/A+A/671/A149          HMXBs in the Galaxy catalogue            (Fortin+, 2023)
+================================================================================
+A catalogue of high-mass X-ray binaries in the Galaxy:
+from the INTEGRAL to the Gaia era.
+    Fortin F., Garcia F., Simaz-Bunzel A., Chaty S.
+    <Astron. Astrophys. 671, A149 (2023)>
+    =2023A&A...671A.149F        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Binaries, X-ray ; Radial velocities ; Spectral types ;
+              Positional data
+Keywords: stars: massive - binaries: general - catalogs
+
+Abstract:
+    High-Mass X-ray Binaries (HMXBs) are a particular class of high-energy
+    sources which require multi-wavelength observational efforts to be
+    properly characterised. New identifications and refinement of previous
+    measurements are regularly published in the literature by independent
+    teams of researchers and could, once collected in a catalogue, offer a
+    tool to facilitate further studies on HMXBs. We aim to update on
+    previous instances of catalogues of HMXBs in the Galaxy, and provide
+    the community easy access to the most complete set of observables on
+    Galactic HMXBs. On top of the fixed version that is available in
+    Vizier, we also aim to host and maintain a dynamic version that can be
+    updated upon request from users, and where any modification will be
+    logged. Using previous catalogues of HMXBs supplemented by listings of
+    hard X-ray sources detected in the past 20 years, we produce a base
+    set of HMXBs and candidates by means of identifier and sky coordinate
+    cross-matches. We query in Simbad for unreferenced HMXBs. We search
+    for as many hard X-ray, soft X-ray, optical and infrared counterparts
+    to the HMXBs as we can in well-known catalogues and compile their
+    coordinates. Each HMXB is subject to a meticulous search in the
+    literature to find relevant measurements and their original reference.
+    We provide a catalogue of 152 HMXBs in the Galaxy with their best
+    known coordinates, companion star spectral type, systemic radial
+    velocities, component masses, orbital period, eccentricity and spin
+    period when available. We also provide the coordinates and identifiers
+    for each counterpart we found from hard X-rays to near-infrared,
+    including 111 counterparts from the recent Gaia DR3 catalogue.
+
+Description:
+    This table was created from datamining in the published litterature.
+    It takes into account information available up until 2022 (included).
+    Values for binary parameters are joined with a reference in which the
+    value was derived. Position data for which we have manually found a
+    counterpart also have a specific reference; if not, then the data
+    comes directly from the corresponding catalogue.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+tablea.dat      1605      152   Catalogue of HMXBs in the Galaxy
+--------------------------------------------------------------------------------
+
+See also:
+         I/352 : Distances to 1.47 billion stars in Gaia EDR3
+                                                      (Bailer-Jones+, 2021)
+ J/ApJS/223/15 : 8yr INTEGRAL/IBIS soft gamma-ray source obs. (Bird+, 2016)
+
+Byte-by-byte Description of file: tablea.dat
+--------------------------------------------------------------------------------
+   Bytes   Format Units   Label      Explanations
+--------------------------------------------------------------------------------
+    1-  23  A23   ---     ID         Identification of the source
+   25-  43 F19.15 deg     RAdeg      Right Ascension (J2000.0)
+   45-  64 F20.16 deg     DEdeg      Declination (J2000.0)
+   66-  87 E22.17 deg     ePos       Positional error
+   89- 107  A19   ---   r_Pos        Reference for position (just for 1 source)
+  109- 121  A13   ---     SpType     Companion star spectral type
+  123- 141  A19   ---   r_SpType     Reference for spectral type
+  143- 154  A12   ---     Class      HMXB class (1)
+  156- 161  F6.2  Msun    Mx         ? Mass of the compact object
+  163- 167  F5.2  Msun  e_Mx         ? Error on Mx
+  169- 198  A30   ---   r_Mx         Reference for Mx
+  200- 205  F6.2  Msun    Mo         ? Mass of the companion star
+  207- 211  F5.1  Msun  e_Mo         ? Error on Mo
+  213- 242  A30   ---   r_Mo         Reference for Mo
+  244- 265 F22.16 d       Per        ? Orbital period
+  267- 274  E8.2  d     e_Per        ? Error on orbital period
+  276- 294  A19   ---   r_Per        Reference for orbital period
+  296- 304  F9.3  d       PerSupOrb  ? Superorbital period
+  306- 313  F8.4  d     e_PerSupOrb  ? Error on the superorbital period
+  315- 333  A19   ---   r_PerSupOrb  Reference for the superorbital period
+  335- 344  F10.7 ---     Ecc        ? Eccentricity of the orbit
+  346- 351  E6.1  ---   e_Ecc        []? Error on the eccentricity (2)
+  353- 371  A19   ---   r_Ecc        Reference for the eccentricity
+  373- 387  F15.8 s       PerSpin    ? Spin period of the compact object
+  389- 396  E8.2  s     e_PerSpin    ? Error on the spin period
+  398- 416  A19   ---   r_PerSpin    Reference for the spin period
+  418- 425  F8.3  km/s    RV         ? Systemic radial velocity
+  427- 433  F7.3  km/s  e_RV         ? Error on RV
+  435- 453  A19   ---   r_RV         Reference for RV
+  455- 462  F8.1  pc      Dist       ? Distance to the source inferred from
+                                      Gaia EDR3 parallax (Bailer-Jones et al.,
+                                       2021, Cat. I/352)
+  464- 470  F7.1  pc    e_Dist       []? Lower bound of the error on distance
+  472- 478  F7.1  pc    E_Dist       ? Upper bound of the error on distance
+  480- 481  A2    ---     IGRvar     Variability flag in the INTEGRAL catalogue
+                                      (Bird et al., 2016, Cat. J/ApJS/223/15)
+  483- 503 F21.16 ---     Swiftvar   ? Ratio of peak to mean flux in Swift 2XSPS
+  505- 508  F4.1  ---     XMMvar     ? Variability flag in 4XMM DR11
+  510- 513  F4.1  ---     Chandravar ? Variability flag in Chandra
+       515  A1    ---     Var        [Y] Overall variability flag
+  517- 530  A14   ---     AGILE      Identifier in AGILE
+  532- 537  F6.1  deg     RA1deg     ? AGILE Right Ascension (J2000.0)
+  539- 543  F5.1  deg     DE1deg     ? AGILE Declination (J2000.0)
+  545- 548  F4.1  deg     ePos1      ? AGILE Positional error
+  550- 568  A19   ---   r_Pos1       Reference for AGILE position
+  570- 579  A10   ---     HEAO       Identifier in HEAO 1
+  581- 589  F9.4  deg     RA2deg     ? HEAO 1 Right Ascension (J2000.0)
+  591- 598  F8.4  deg     DE2deg     ? HEAO 1 Declination (J2000.0)
+  600- 620 F21.18 deg     ePos2      ? HEAO 1 Positional error
+  624- 633  A10   ---     UHURU4     Identifier in UHURU 4
+  635- 653 F19.14 deg     RA3deg     ? UHURU 4 Right Ascension (J2000.0)
+  655- 673 F19.15 deg     DE3deg     ? UHURU 4 Declination (J2000.0)
+  675- 694 F20.17 deg     ePos3      ? UHURU 4 Positional error
+  698- 708  A11   ---     ARIEL3     Identifier in Ariel V 3
+  710- 718  F9.4  deg     RA4deg     ? Ariel V 3 Right Ascension (J2000.0)
+  720- 727  F8.4  deg     DE4deg     ? Ariel V 3 Declination (J2000.0)
+  729- 749 F21.18 deg     ePos4      ? Ariel V 3 Positional error
+  753- 770  A18   ---     IGR        Identifier in INTEGRAL
+  772- 779  F8.3  deg     RA5deg     ? INTEGRAL Right Ascension (J2000.0)
+  781- 799 F19.15 deg     DE5deg     ? INTEGRAL Declination (J2000.0)
+  801- 822 F22.19 deg     ePos5      ? INTEGRAL Positional error
+  839- 855  A17   ---     ROSAT      Identifier in ROSAT
+  857- 874 F18.13 deg     RA7deg     ? ROSAT Right Ascension (J2000.0)
+  876- 894 F19.15 deg     DE7deg     ? ROSAT Declination (J2000.0)
+  896- 917 F22.19 deg     ePos7      ? ROSAT Positional error
+  919- 940  A22   ---   r_Pos7       Reference for ROSAT position
+  942- 963  A22   ---     ROSATF     Identifier in ROSAT faint sources
+  965- 974  F10.5 deg     RA8deg     ? ROSATF Right Ascension (J2000.0)
+  976- 984  F9.5  deg     DE8deg     ? ROSATF Declination (J2000.0)
+  986-1007 F22.19 deg     ePos8      ? ROSATF Positional error
+ 1011-1027  A17   ---     FERMI      Identifier in FERMI 4th
+ 1029-1037  F9.4  deg     RA9deg     ? FERMI 4th Right Ascension (J2000.0)
+ 1039-1046  F8.4  deg     DE9deg     ? FERMI 4th Declination (J2000.0)
+ 1048-1056  F9.6  deg     ePos9      ? FERMI 4th Positional error
+ 1060-1080  A21   ---     SAX        Identifier in BeppoSAX
+ 1082-1100 F19.14 deg     RA10deg    ? BeppoSAX Right Ascension (J2000.0)
+ 1102-1120 F19.15 deg     DE10deg    ? BeppoSAX Declination (J2000.0)
+ 1122-1142 F21.18 deg     ePos10     ? BeppoSAX Positional error
+ 1144-1162  A19   ---   r_Pos10      Reference for BeppoSAX position
+ 1164-1185  A22   ---     Swift      Identifier in Swift 2XSPS
+ 1187-1205 F19.14 deg     RA11deg    ? Swift 2XSPS Right Ascension (J2000.0)
+ 1207-1225 F19.15 deg     DE11deg    ? Swift 2XSPS Declination (J2000.0)
+ 1227-1249 F23.20 deg     ePos11     ? Swift 2XSPS Positional error
+ 1251-1269  A19   ---   r_Pos11      Reference for Swift 2XSPS position
+ 1271-1291  A21   ---     XMM        Identifier in 4XMM DR11
+ 1293-1303  F11.6 deg     RA12deg    ? 4XMM DR11 Right Ascension (J2000.0)
+ 1305-1314  F10.6 deg     DE12deg    ? 4XMM DR11 Declination (J2000.0)
+ 1316-1337 E22.17 deg     ePos12     ? 4XMM DR11 Positional error
+ 1341-1362  A22   ---     Chandra    Identifier in Chandra CSC2
+ 1364-1383 F20.15 deg     RA13deg    ? Chandra CSC2  Right Ascension (J2000.0)
+ 1385-1404 F20.16 deg     DE13deg    ? Chandra CSC2 Declination (J2000.0)
+ 1406-1428 F23.20 deg     ePos13     ? Chandra CSC2 Positional error
+ 1430-1448  A19   ---   r_Pos13      Reference for Chandra CSC2 position
+ 1450-1472  A23   ---     2MASS      Identifier in 2MASS
+ 1474-1484  F11.6 deg     RA14deg    ? 2MASS Right Ascension (J2000.0)
+ 1486-1495  F10.6 deg     DE14deg    ? 2MASS Declination (J2000.0)
+ 1497-1518 E22.17 deg     ePos14     ? 2MASS Positional error
+ 1522-1540  I19   ---     GaiaDR3    ?=0 Identifier in Gaia DR3
+ 1542-1561 F20.15 deg     RA15deg    ? Gaia DR3 Right Ascension (J2000.0)
+ 1563-1582 F20.16 deg     DE15deg    ? Gaia DR3 Declination (J2000.0)
+ 1584-1605 E22.17 deg     ePos15     ? Gaia DR3 Positional error
+--------------------------------------------------------------------------------
+Note (1): HMXB class as follows:
+           Be   = Be HMXB
+           sg   = supergiant HMXB
+           SFXT = supergiant fast X-ray transient
+           WR   = Wolf-Rayet
+Note (2): A negative value in eccentricity error indicates that the given
+           eccentricity is an upper limit.
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Francis Fortin, fortin(at)apc.in2p3.fr
+
+================================================================================
+(End)    Francis Fortin [APC, France], Patricia Vannier [CDS]        01-Feb-2023

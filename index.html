@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>X-ray properties of Galactic HMXBs corrected by interstellar absorption</title>
+<style>
+  :root { --ink:#1a1a1a; --dim:#5a5a5a; --rule:#d8d8d8; --accent:#7b2d26; --bg:#fbfaf8; --box:#f2f0ec; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e3; --dim:#a8a4a0; --rule:#3a3a3a; --accent:#e3a39c; --bg:#141414; --box:#1e1e1e; }
+  }
+  body { background:var(--bg); color:var(--ink); margin:0;
+         font:16px/1.6 Georgia, "Times New Roman", serif; }
+  main { max-width:820px; margin:0 auto; padding:2.5rem 16px 5rem; }
+  h1 { font-size:1.9rem; line-height:1.25; margin:0 0 .3rem; }
+  h2 { font-size:1.25rem; margin:2.4rem 0 .6rem; padding-bottom:.25rem;
+       border-bottom:1px solid var(--rule); }
+  h3 { font-size:1.02rem; margin:1.5rem 0 .3rem; }
+  .by { color:var(--dim); margin:0 0 1.6rem; font-size:.95rem; }
+  .lede { font-size:1.06rem; }
+  a { color:var(--accent); }
+  code, .mono { font-family:ui-monospace, Menlo, Consolas, monospace; font-size:.88em; }
+  .links { display:flex; flex-wrap:wrap; gap:.6rem; margin:1.4rem 0 0; padding:0; list-style:none; }
+  .links a { display:inline-block; padding:.5rem .85rem; background:var(--box);
+             border:1px solid var(--rule); border-radius:6px; text-decoration:none; }
+  table { border-collapse:collapse; width:100%; margin:1rem 0; font-size:.93rem; }
+  th, td { text-align:left; padding:.35rem .6rem; border-bottom:1px solid var(--rule); }
+  th { font-weight:normal; color:var(--dim); }
+  td.n { text-align:right; font-variant-numeric:tabular-nums; }
+  figure { margin:1.6rem 0; }
+  figure img { width:100%; height:auto; display:block; border:1px solid var(--rule); border-radius:4px; }
+  figcaption { color:var(--dim); font-size:.9rem; margin-top:.5rem; }
+  .note { background:var(--box); border-left:3px solid var(--accent);
+          padding:.8rem 1rem; margin:1.4rem 0; font-size:.95rem; }
+  footer { margin-top:3rem; padding-top:1rem; border-top:1px solid var(--rule);
+           color:var(--dim); font-size:.9rem; }
+</style>
+<main>
+
+<h1>X-ray properties of Galactic HMXBs corrected by interstellar absorption</h1>
+<p class="by">Marina Belén Badaracco · Professors: Dr. Matías Zaldarriaga &amp; Dr. Nahuel Miron Granese<br>
+Work carried out with Claude Code 2.1.278 (Opus 5, effort high) · 28 September 2026</p>
+
+<p class="lede">The column density measured towards a high-mass X-ray binary is a sum: part
+interstellar, part produced by the donor's wind and the wake trailing the compact object. Only
+the second is a property of the binary, and it is not constant — it varies around the orbit.
+This project measures it <em>as a function of orbital phase</em>, homogeneously, across the
+Galactic sample.</p>
+
+<ul class="links">
+  <li><a href="summary.pdf">Summary (PDF, 4 pages)</a></li>
+  <li><a href="work/PROVENANCE.md">PROVENANCE.md</a></li>
+  <li><a href="work/1_Crossmatch.html">Notebook 1 — sample &amp; Gaia</a></li>
+  <li><a href="work/2_XrayCrossmatch.html">Notebook 2 — X-ray counterparts</a></li>
+  <li><a href="README.md">How to reproduce</a></li>
+</ul>
+
+<h2>The gap this fills</h2>
+<p>Fortin et al. (2023) compile 152 Galactic HMXBs with 111 <i>Gaia</i> DR3 counterparts and
+distances, but tabulate no X-ray flux, column density or spectral slope. Neumann et al. (2023)
+give fluxes in five bands and one column density, taken from the <i>Swift</i> catalogue, where it
+came from interpolating a power law through hardness ratios rather than from a spectral fit. For
+a population lying in the Galactic plane this is the gap that matters: below about 2 keV an HMXB
+spectrum is shaped more by absorption than by emission.</p>
+
+<p>Doroshenko et al. (2024) make the separation possible with a pan-Galactic cumulative-reddening
+cube: queried at the Bailer-Jones distance it returns the interstellar column, and the remainder
+of a fitted <span class="mono">N<sub>H</sub></span> is the local one. The subtraction cannot be
+done with point values — the distance has an asymmetric posterior, the cube its own calibration
+uncertainty, the conversion depends on the abundance table — so a Monte Carlo over distance, cube
+and conversion is required for the residual to have an honest error bar.</p>
+
+<div class="note"><strong>Why the catalogue columns cannot simply be used.</strong> A catalogue
+publishes a best-fit column and at most a 68 % interval; the probability distribution behind that
+number is not published, neither its shape nor its covariance with the photon index. Subtracting a
+distribution from a point estimate with a symmetric error bar does not propagate the error, it
+invents one — and the result is then binned in orbital phase, where the scatter between bins is
+the signal. The fits have to be ours, made in XSPEC with each posterior kept rather than
+summarised.</div>
+
+<h2>Where the work stands</h2>
+<table>
+  <tr><th>Quantity</th><th>Value</th></tr>
+  <tr><td>Systems with at least one X-ray counterpart (the working sample)</td><td class="n">89</td></tr>
+  <tr><td>— with a CSC 2.1.1 source / a 5XMM-DR15 source / both</td><td class="n">61 / 60 / 32</td></tr>
+  <tr><td>Systems with a published orbital period</td><td class="n">72</td></tr>
+  <tr><td>Published phase-zero epochs read by hand from the literature</td><td class="n">57</td></tr>
+  <tr><td>— distinct conventions among them</td><td class="n">10</td></tr>
+  <tr><td>Systems brought onto a common convention (periastron passage)</td><td class="n">33</td></tr>
+  <tr><td>Systems with a usable orbital phase on their observations</td><td class="n">31</td></tr>
+  <tr><td>Observations carrying a phase</td><td class="n">134 of 140</td></tr>
+  <tr><td>Reprocessed observations (<i>Chandra</i> / <i>XMM-Newton</i>)</td><td class="n">194 / 193</td></tr>
+  <tr><td>Broad-band images with source detection (<i>Chandra</i> / EPIC)</td><td class="n">193 / 561</td></tr>
+  <tr><td>Stage 1: <i>Chandra</i> detections reaching the published statistic</td><td class="n">105 of 115</td></tr>
+</table>
+
+<h2>Bringing the orbital phases onto one convention</h2>
+<p>This is the part with no established recipe. The 57 epochs are of ten kinds — periastron
+passage, mean longitude 90°, mid-eclipse, conjunctions, outburst and optical maxima, an
+ellipsoidal minimum, a spectroscopic phase zero, and eight origins chosen only to fold a light
+curve. A phase measured from one is not the phase measured from another, so any statement
+comparing phases between systems is empty until they are referred to one point.</p>
+
+<p>They are referred to the <strong>periastron passage</strong>. An epoch of mean longitude 90°
+converts exactly and needs only the longitude of periastron; a conjunction or a mid-eclipse
+requires the true anomaly at that configuration and then Kepler's equation. A third route needs no
+geometry: Fornasini et al. (2023) state that the Type I outbursts of Be X-ray binaries happen
+quasi-periodically at or near periastron, and that their recurrence is how the orbital period of
+such a system is measured — so for a Be XB an epoch of maximum flux <em>is</em> a periastron
+passage. Whether a system qualifies is decided by the catalogue's own class column, not by
+judgement: five of the ten outburst epochs are adopted, the other five belong to supergiants and
+SFXTs and are not.</p>
+
+<p>One trap is worth stating because getting it wrong would exchange the answer with its opposite.
+A longitude of periastron describes <em>somebody's</em> orbit, and the two possibilities differ by
+exactly 180°: pulse timing gives the compact object's, radial velocities of the companion give the
+donor's. The frame is recorded per system, decided from what each paper actually quotes.</p>
+
+<h2>What the sample looks like</h2>
+<figure>
+  <img src="work/summary/figs/ss433.png" alt="Mosaic of the 14 observations of SS 433 in time order">
+  <figcaption><strong>SS 433</strong> — 14 observations in time order. It has a superior-conjunction
+  epoch and no published longitude of periastron, so it cannot be placed on the common convention
+  and is ordered by MJD instead.</figcaption>
+</figure>
+<figure>
+  <img src="work/summary/figs/lsi61303.png" alt="Mosaic of the 17 observations of LS I +61 303 in phase order">
+  <figcaption><strong>LS I +61°303</strong> — 17 observations from phase 0 to ~0.99.</figcaption>
+</figure>
+<figure>
+  <img src="work/summary/figs/psrb1259.png" alt="Mosaic of the 41 observations of PSR B1259-63 in phase order">
+  <figcaption><strong>PSR B1259−63</strong> — 41 observations in phase order, the largest set in the
+  sample.</figcaption>
+</figure>
+<p style="color:var(--dim); font-size:.93rem">Each tile is one observation, centred on the source
+and marked with a 10″ circle; the number above it is the orbital phase, or the MJD where none
+exists. The colour scale is raw counts per image pixel, uncorrected for exposure or vignetting,
+square-root stretched to the 99.5th percentile <em>of that tile alone</em>, so brightness is not
+comparable between tiles. In a three-colour tile red, green and blue are the counts of EMOS1,
+EMOS2 and EPN. Mosaics are produced by <code>Observations/Images/ds9_phase_mosaic.sh</code>, one
+command per system.</p>
+
+<h2>What has been checked, and what has not</h2>
+<p>Every statement in the manuscript and in the summary is traced in
+<a href="work/PROVENANCE.md">PROVENANCE.md</a> to the file and function that produced it, with the
+check that was run beside it and an explicit note of what was <em>not</em> checked. A few examples
+of the second kind, so the shape of the record is clear: no confidence limits are computed on our
+own Stage 1 parameters, so the comparison is our best fit against the catalogue's interval and not
+interval against interval; the ten <i>Chandra</i> detections that never reach the published
+statistic have not been diagnosed; apsidal motion is not applied; and the systematic that rides on
+the five Be outburst epochs, the width of the outburst, is not quantified.</p>
+
+<div class="note"><strong>The images are not all pointings at their system.</strong> The
+observation lists hold every observation whose field covers the position, and the source lies
+beyond 6 arcmin off-axis in 69 of the 193 <i>Chandra</i> observations and beyond 10 in 32. An empty
+tile can mean the source was not detected, or that the telescope was aimed elsewhere. They are kept
+and studied: a large off-axis angle belongs in the error budget of a measurement, not in a cut on
+the sample.</div>
+
+<footer>
+Repository layout, environment and reproduction steps are in <a href="README.md">README.md</a>.
+The bulk data — 367 GB of reprocessed observations and images, the 5XMM-DR15 catalogue, and the
+source papers — are not in the repository; the README says how to obtain each and which script
+rebuilds it.
+</footer>
+
+</main>
+</html>
